@@ -205,17 +205,6 @@ a:hover {
     font-style: italic;
 }
 
-#searchInput2 {
-    width: 200px;
-    background-color: #2a475e;
-    border-radius: 3px;
-    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5);
-    padding: 5px;
-    border: 1px solid rgb(128, 128, 128);
-    margin-top: 8.5px;
-    color: #666464;
-}
-
 #btn-search {
     background-color: rgba(0, 0, 0, 0);
     border: none;
@@ -445,7 +434,7 @@ h5:hover {
 .card-readnow {
     padding: 10px;
     background: linear-gradient(to bottom, #2a475e, rgb(45, 65, 89));
-    font-size: 13px;
+    font-size: 10px;
     color: #fff;
 }
 
@@ -565,17 +554,6 @@ h5:hover {
         margin-bottom: auto;
         color: #666464;
         font-style: italic;
-    }
-
-    #searchInput2 {
-        width: 200px;
-        background-color: #2a475e;
-        border-radius: 3px;
-        box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5);
-        padding: 5px;
-        border: 1px solid rgb(128, 128, 128);
-        margin-top: 8.5px;
-        color: #666464;
     }
 
     #btn-search {
@@ -765,7 +743,7 @@ h5:hover {
     }
 
     .card-item img {
-        width: 90px;
+        width: 130px;
         height: auto;
         margin-right: 20px;
     }
@@ -907,17 +885,6 @@ h5:hover {
         margin-bottom: auto;
         color: #666464;
         font-style: italic;
-    }
-
-    #searchInput2 {
-        width: 200px;
-        background-color: #2a475e;
-        border-radius: 3px;
-        box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5);
-        padding: 5px;
-        border: 1px solid rgb(128, 128, 128);
-        margin-top: 8.5px;
-        color: #666464;
     }
 
     #btn-search {
@@ -1101,7 +1068,7 @@ h5:hover {
     }
 
     .card-item img {
-        width: 90px;
+        width: 130px;
         height: auto;
         margin-right: 20px;
     }
@@ -1256,17 +1223,6 @@ h5:hover {
         margin-bottom: auto;
         color: #666464;
         font-style: italic;
-    }
-
-    #searchInput2 {
-        width: 200px;
-        background-color: #2a475e;
-        border-radius: 3px;
-        box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5);
-        padding: 5px;
-        border: 1px solid rgb(128, 128, 128);
-        margin-top: 8.5px;
-        color: #666464;
     }
 
     #btn-search {

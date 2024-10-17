@@ -1677,6 +1677,12 @@ h5:hover {
 	/* GRID CARD */
 
 	/* */
+	.card-item img {
+		width: 130px;
+		height: auto;
+		margin-right: 20px;
+	}
+
 	.card-title {
 		font-size: 1rem;
 	}
@@ -2257,6 +2263,15 @@ h5:hover {
 	.grid {
 		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 	}
+
+	/* */
+	.card-item img {
+		width: 130px;
+		height: auto;
+		margin-right: 20px;
+	}
+
+	/* */
 
 	/* UPDATE AND OFFERS */
 	.container-updatesandoffers {
@@ -2894,6 +2909,15 @@ h5:hover {
 	.grid {
 		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 	}
+
+	/* */
+	.card-item img {
+		width: 130px;
+		height: auto;
+		margin-right: 20px;
+	}
+
+	/* */
 
 	/* UPDATE AND OFFERS */
 	.container-updatesandoffers {

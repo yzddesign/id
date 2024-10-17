@@ -205,17 +205,6 @@ a:hover {
 	font-style: italic;
 }
 
-#searchInput2 {
-	width: 200px;
-	background-color: #2a475e;
-	border-radius: 3px;
-	box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.5);
-	padding: 5px;
-	border: 1px solid rgb(128, 128, 128);
-	margin-top: 8.5px;
-	color: #666464;
-}
-
 #btn-search {
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
