@@ -347,7 +347,7 @@ h5:hover {
     flex-shrink: 0;
     background: linear-gradient(to bottom, rgb(42, 71, 94), rgba(44, 66, 94, 0.128));
     box-shadow: 0 1px 9px rgba(0, 0, 0, 0.5);
-    padding: 9px 13px;
+    padding: 11px 15px;
     border-radius: 50px;
     border-top: 2.3px solid rgb(75, 88, 104);
 }
@@ -1178,7 +1178,7 @@ h5:hover {
 
     .nama-nav-end {
         font-size: 0.8rem;
-        padding: 9px 13px;
+        padding: 11px 15px;
     }
 
     .card-title {
