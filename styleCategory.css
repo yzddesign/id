@@ -474,6 +474,18 @@ h5:hover {
     background: linear-gradient(180deg, rgb(250, 155, 155), rgba(250, 155, 155, 0.335));
 }
 
+.background-card-5 {
+    background: linear-gradient(180deg, rgb(230, 16, 16), rgba(230, 16, 16, 0.335));
+}
+
+.background-card-6 {
+    background: linear-gradient(180deg, rgb(20, 7, 59), rgba(20, 7, 59, 0.335));
+}
+
+.background-card-7 {
+    background: linear-gradient(180deg, rgb(20, 7, 59), rgba(20, 7, 59, 0.335));
+}
+
 /* NEW RELEASES */
 
 /* CONTENT HIDE */
@@ -555,6 +567,43 @@ h5:hover {
     text-align: left;
     flex-wrap: wrap;
     font-size: 12px;
+}
+
+.hidden1,
+.hidden3,
+.hidden4 {
+    display: none;
+}
+
+.container-showmorebtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#showMoreBtn1 {
+    cursor: pointer;
+    padding: 11px;
+    border: none;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #a9a3b6, #a9a3b6aa);
+}
+
+#showMoreBtn3 {
+    cursor: pointer;
+    padding: 11px;
+    border: none;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #a9a3b6, #a9a3b6aa);
+}
+
+#showMoreBtn4 {
+    cursor: pointer;
+    padding: 11px;
+    border: none;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #a9a3b6, #a9a3b6aa);
 }
 
 /* POPULAR TITLES */
@@ -657,6 +706,72 @@ h5:hover {
 
 /* ALL ITEMS */
 
+/* COMING SOON */
+.comingsoon-wrapper {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    max-width: max-content;
+    font-family: sans-serif;
+    margin: 10px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    margin-bottom: 120px;
+}
+
+.comingsoon-wrapper::-webkit-scrollbar {
+    height: 8px;
+}
+
+.comingsoon-wrapper::-webkit-scrollbar-thumb {
+    background-color: #ffc0b034;
+    border-radius: 3px;
+}
+
+.container-comingsoon {
+    display: flex;
+    font-family: sans-serif;
+    gap: 10px;
+}
+
+.comingsoon-card {
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 3px 3px 3px #171a21;
+}
+
+.comingsoon-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.comingsoon-card {
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px #171a21;
+    min-width: 230px;
+    position: relative;
+}
+
+.storyrich-card img {
+    width: 230px;
+    height: auto;
+    display: block;
+}
+
+.read-now {
+    background: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+/* COMING SOON */
+
 
 
 @media screen and (min-width: 1280px) {
@@ -744,6 +859,12 @@ h5:hover {
     }
 
     /* SEARCH ENGINE */
+
+    .nav-end {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .nama-nav-end {
         font-size: 13px;
@@ -842,6 +963,48 @@ h5:hover {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         position: relative;
         background-image: url('https://iamyzddesign.github.io/thumbnail-1/UNKNOWN\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
+    .shortstory-card-5 {
+        background: linear-gradient(180deg, rgb(230, 16, 16), rgba(230, 16, 16, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/SIGNAL\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
+    .shortstory-card-6 {
+        background: linear-gradient(180deg, rgb(20, 7, 59), rgba(20, 7, 59, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/HERE\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
+    .shortstory-card-7 {
+        background: linear-gradient(180deg, rgb(20, 7, 59), rgba(20, 7, 59, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/STILL\ ALIVE\ 2\ \(THUMBNAIL\).jpg');
         /* Add image as background */
         background-size: cover;
         /* Ensures the image covers the entire card */
@@ -995,6 +1158,16 @@ h5:hover {
         text-align: left;
         flex-wrap: wrap;
         font-size: 12px;
+    }
+
+    .hidden1,
+    .hidden3,
+    .hidden4 {
+        display: block;
+    }
+
+    .container-showmorebtn {
+        display: none;
     }
 
     /* POPULAR TITLES */
@@ -1386,6 +1559,48 @@ h5:hover {
         cursor: default;
     }
 
+    .shortstory-card-5 {
+        background: linear-gradient(180deg, rgb(230, 16, 16), rgba(230, 16, 16, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/SIGNAL\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
+    .shortstory-card-6 {
+        background: linear-gradient(180deg, rgb(20, 7, 59), rgba(20, 7, 59, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/HERE\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
+    .shortstory-card-7 {
+        background: linear-gradient(180deg, rgb(20, 7, 59), rgba(20, 7, 59, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/STILL\ ALIVE\ 2\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
     .shortstory-tittle {
         color: white;
     }
@@ -1460,6 +1675,12 @@ h5:hover {
 
     /* NEW SHORT STORY RELEASES DESKTOP */
 
+    .nav-end {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     /* POPULAR TITLES */
     .container {
         display: grid;
@@ -1532,6 +1753,16 @@ h5:hover {
         text-align: left;
         flex-wrap: wrap;
         font-size: 12px;
+    }
+
+    .hidden1,
+    .hidden3,
+    .hidden4 {
+        display: block;
+    }
+
+    .container-showmorebtn {
+        display: none;
     }
 
     /* POPULAR TITLES */
