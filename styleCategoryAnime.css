@@ -592,6 +592,16 @@ h5:hover {
     background: linear-gradient(to bottom, #a9a3b6, #a9a3b6aa);
 }
 
+#showMoreBtn2 {
+    font-size: 12px;
+    color: #292726;
+    cursor: pointer;
+    padding: 13px 12px;
+    border: none;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #a9a3b6, #a9a3b6aa);
+}
+
 #showMoreBtn3 {
     font-size: 12px;
     color: #292726;
