@@ -11,6 +11,19 @@ function showMore1() {
     btnText.style.display = 'none'; // Hide the button after cards are shown
 }
 
+function showMore2() {
+    var hiddenCards = document.querySelectorAll('.hidden2');
+    var btnText = document.getElementById("showMoreBtn2");
+
+    hiddenCards.forEach((card, index) => {
+        // Show all hidden cards
+        card.classList.remove('hidden2');
+    });
+
+    // Change button text after showing all cards
+    btnText.style.display = 'none'; // Hide the button after cards are shown
+}
+
 function showMore3() {
     var hiddenCards = document.querySelectorAll('.hidden3');
     var btnText = document.getElementById("showMoreBtn3");
