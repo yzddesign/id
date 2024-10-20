@@ -446,6 +446,9 @@ h5:hover {
     padding: -5px;
     text-align: left;
     font-size: 10px;
+    width: max-content;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .card-title p {

@@ -446,6 +446,9 @@ h5:hover {
     padding: -5px;
     text-align: left;
     font-size: 10px;
+    width: max-content;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .card-title p {
@@ -482,6 +485,10 @@ h5:hover {
     background: linear-gradient(180deg, rgb(20, 7, 59), rgba(20, 7, 59, 0.335));
 }
 
+.background-card-7 {
+    background: linear-gradient(180deg, rgb(89, 46, 218), rgba(89, 46, 218, 0.335));
+}
+
 /* NEW RELEASES */
 
 /* CONTENT HIDE */
@@ -501,7 +508,12 @@ h5:hover {
     margin: 10px;
 }
 
-.storyrich-wrapper {
+.nav-storyrich {
+    margin-top: -50px;
+}
+
+.storyrich-wrapper,
+.isekai-wrapper {
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
@@ -522,7 +534,17 @@ h5:hover {
     border-radius: 3px;
 }
 
-.container-storyrich {
+.isekai-wrapper::-webkit-scrollbar {
+    height: 8px;
+}
+
+.isekai-wrapper::-webkit-scrollbar-thumb {
+    background-color: #ffc0b034;
+    border-radius: 3px;
+}
+
+.container-storyrich,
+.container-isekai {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     font-family: sans-serif;
@@ -542,14 +564,16 @@ h5:hover {
     display: block;
 }
 
-.storyrich-card {
+.storyrich-card,
+.isekai-card {
     border-radius: 3px;
     box-shadow: 3px 3px 3px #171a21;
     min-width: 230px;
     position: relative;
 }
 
-.storyrich-card img {
+.storyrich-card,
+.isekai-card img {
     width: 230px;
     height: auto;
     display: block;
@@ -1004,6 +1028,20 @@ h5:hover {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         position: relative;
         background-image: url('https://iamyzddesign.github.io/thumbnail-1/STILL\ ALIVE\ 2\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
+    .shortstory-card-7 {
+        background: linear-gradient(180deg, rgb(89, 46, 218), rgba(89, 46, 218, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/PIRATE\ KING\ OF\ ANOTHER\ WORLD\ -\ THE\ FORGOTTEN\ ONE\ \(THUMBNAIL\).jpg');
         /* Add image as background */
         background-size: cover;
         /* Ensures the image covers the entire card */
@@ -1580,6 +1618,20 @@ h5:hover {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         position: relative;
         background-image: url('https://iamyzddesign.github.io/thumbnail-1/STILL\ ALIVE\ 2\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
+    .shortstory-card-7 {
+        background: linear-gradient(180deg, rgb(89, 46, 218), rgba(89, 46, 218, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/PIRATE\ KING\ OF\ ANOTHER\ WORLD\ -\ THE\ FORGOTTEN\ ONE\ \(THUMBNAIL\).jpg');
         /* Add image as background */
         background-size: cover;
         /* Ensures the image covers the entire card */
