@@ -492,6 +492,10 @@ h5:hover {
     background: linear-gradient(180deg, rgb(89, 46, 218), rgba(89, 46, 218, 0.335));
 }
 
+.background-card-8 {
+    background: linear-gradient(180deg, rgb(248, 148, 18), rgba(248, 148, 18, 0.335));
+}
+
 /* NEW RELEASES */
 
 /* CONTENT HIDE */
@@ -569,7 +573,6 @@ h5:hover {
 
 .storyrich-card,
 .isekai-card {
-    border-radius: 3px;
     box-shadow: 3px 3px 3px #171a21;
     min-width: 230px;
     position: relative;
@@ -1045,6 +1048,20 @@ h5:hover {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         position: relative;
         background-image: url('https://iamyzddesign.github.io/thumbnail-1/PIRATE\ KING\ OF\ ANOTHER\ WORLD\ -\ THE\ FORGOTTEN\ ONE\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
+    .shortstory-card-8 {
+        background: linear-gradient(180deg, rgb(248, 148, 18), rgba(248, 148, 18, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/UNKNOWN\ CORPORATION\ -\ SECRET\ MISSION\ S2\ \(THUMBNAIL\).jpg');
         /* Add image as background */
         background-size: cover;
         /* Ensures the image covers the entire card */
@@ -1635,6 +1652,20 @@ h5:hover {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         position: relative;
         background-image: url('https://iamyzddesign.github.io/thumbnail-1/PIRATE\ KING\ OF\ ANOTHER\ WORLD\ -\ THE\ FORGOTTEN\ ONE\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
+    .shortstory-card-8 {
+        background: linear-gradient(180deg, rgb(248, 148, 18), rgba(248, 148, 18, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/UNKNOWN\ CORPORATION\ -\ SECRET\ MISSION\ S2\ \(THUMBNAIL\).jpg');
         /* Add image as background */
         background-size: cover;
         /* Ensures the image covers the entire card */

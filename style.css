@@ -316,9 +316,15 @@ h5:hover {
 /* DROPDOWN MENU */
 
 /* COMING SOON */
-.coming-soon img {
+.coming-soon,
+.new-available img {
 	width: 100%;
 	height: auto;
+}
+
+.new-available {
+	padding-top: 10px;
+	margin: 10px;
 }
 
 /* COMING SOON */
