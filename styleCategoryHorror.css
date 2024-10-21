@@ -567,6 +567,7 @@ h5:hover {
 }
 
 .hidden1,
+.hidden2,
 .hidden3,
 .hidden4 {
     display: none;
@@ -1146,6 +1147,7 @@ h5:hover {
     }
 
     .hidden1,
+    .hidden2,
     .hidden3,
     .hidden4 {
         display: block;
@@ -1741,6 +1743,7 @@ h5:hover {
     }
 
     .hidden1,
+    .hidden2,
     .hidden3,
     .hidden4 {
         display: block;
