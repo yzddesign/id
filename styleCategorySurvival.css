@@ -762,7 +762,7 @@ h5:hover {
     font-size: 12px;
     color: white;
     cursor: pointer;
-    padding: 7px 25px;
+    padding: 8px 30px;
     border: none;
     border-radius: 2px;
     background: linear-gradient(to bottom, #726d7a, #726d7ac4);
@@ -1344,7 +1344,7 @@ h5:hover {
         font-size: 12px;
         color: white;
         cursor: pointer;
-        padding: 5px 100px;
+        padding: 8px 100px;
         border: none;
         border-radius: 2px;
         background: linear-gradient(to bottom, #726d7a, #726d7ac4);
@@ -1963,7 +1963,7 @@ h5:hover {
         font-size: 12px;
         color: white;
         cursor: pointer;
-        padding: 5px 100px;
+        padding: 8px 100px;
         border: none;
         border-radius: 2px;
         background: linear-gradient(to bottom, #726d7a, #726d7ac4);
