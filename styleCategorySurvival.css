@@ -654,7 +654,7 @@ h5:hover {
 /* ALL ITEMS */
 .background-1 {
     background: linear-gradient(to bottom, #75698e, #75698e54);
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin: 10px;
 }
 
@@ -745,6 +745,27 @@ h5:hover {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.hiddenallitems {
+    display: none;
+}
+
+.container-showmorebtn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#showMoreAllItems {
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    padding: 7px 25px;
+    border: none;
+    border-radius: 2px;
+    background: linear-gradient(to bottom, #726d7a, #726d7ac4);
 }
 
 /* ALL ITEMS */
@@ -1228,7 +1249,7 @@ h5:hover {
     /* ALL ITEMS */
     .background-1 {
         background: linear-gradient(to bottom, #75698e, #75698e54);
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         margin: 10px;
     }
 
@@ -1313,6 +1334,20 @@ h5:hover {
     .card-title-newreleases {
         font-size: 0.8rem;
         color: white;
+    }
+
+    .hiddenallitems {
+        display: none;
+    }
+
+    #showMoreAllItems {
+        font-size: 12px;
+        color: white;
+        cursor: pointer;
+        padding: 5px 100px;
+        border: none;
+        border-radius: 2px;
+        background: linear-gradient(to bottom, #726d7a, #726d7ac4);
     }
 
     /* ALL ITEMS */
@@ -1833,7 +1868,7 @@ h5:hover {
     /* ALL ITEMS */
     .background-1 {
         background: linear-gradient(to bottom, #75698e, #75698e54);
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         margin: 10px;
     }
 
@@ -1918,6 +1953,20 @@ h5:hover {
     .card-title-newreleases {
         font-size: 0.8rem;
         color: white;
+    }
+
+    .hiddenallitems {
+        display: none;
+    }
+
+    #showMoreAllItems {
+        font-size: 12px;
+        color: white;
+        cursor: pointer;
+        padding: 5px 100px;
+        border: none;
+        border-radius: 2px;
+        background: linear-gradient(to bottom, #726d7a, #726d7ac4);
     }
 
     /* ALL ITEMS */

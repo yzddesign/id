@@ -49,3 +49,18 @@ function showMore4() {
     // Change button text after showing all cards
     btnText.style.display = 'none'; // Hide the button after cards are shown
 }
+
+
+
+function showMoreAllItems() {
+    var hiddenCards = document.querySelectorAll('.hiddenallitems');
+    var btnText = document.getElementById("showMoreAllItems");
+
+    hiddenCards.forEach((card, index) => {
+        // Show all hidden cards
+        card.classList.remove('hiddenallitems');
+    });
+
+    // Change button text after showing all cards
+    btnText.style.display = 'none'; // Hide the button after cards are shown
+}
