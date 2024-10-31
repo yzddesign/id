@@ -488,6 +488,10 @@ h5:hover {
     background: linear-gradient(180deg, rgb(30, 29, 28), rgba(30, 29, 28, 0.335));
 }
 
+.background-card-7 {
+    background: linear-gradient(180deg, rgb(41, 40, 39), rgba(41, 40, 39, 0.335));
+}
+
 /* NEW RELEASES */
 
 /* CONTENT HIDE */
@@ -1030,6 +1034,20 @@ h5:hover {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         position: relative;
         background-image: url('https://iamyzddesign.github.io/thumbnail-1/KODOKU\ -\ LIVING\ IN\ THE\ CURSED\ CITY\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
+    .shortstory-card-7 {
+        background: linear-gradient(180deg, rgb(41, 40, 39), rgba(41, 40, 39, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/JUKOKU\ \(THUMBNAIL\).jpg');
         /* Add image as background */
         background-size: cover;
         /* Ensures the image covers the entire card */
@@ -1615,6 +1633,20 @@ h5:hover {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         position: relative;
         background-image: url('https://iamyzddesign.github.io/thumbnail-1/KODOKU\ -\ LIVING\ IN\ THE\ CURSED\ CITY\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
+    .shortstory-card-7 {
+        background: linear-gradient(180deg, rgb(41, 40, 39), rgba(41, 40, 39, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/JUKOKU\ \(THUMBNAIL\).jpg');
         /* Add image as background */
         background-size: cover;
         /* Ensures the image covers the entire card */

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleShortStories.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Jukoku</title>
+</head>
+
+<body>
+    <section>
+        <nav class="mobile-menu">
+            <div class="container-logoweb">
+                <a href="home.html#coming-soon"><img src="YZD-Design-Logo-(NEW).png" alt="" class="logo-website"></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+            </div>
+            <div class="menu-content" id="menu-content">
+                <ul>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">New & Noteworthy</a>
+                        <ul class="submenu">
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Top Short
+                                    Stories</a></li>
+                            <li><a href="new-releases.html#new-releases" class="menu-link">New Releases</a></li>
+                            <li><a href="upcoming-releases.html#upcoming-releases" class="menu-link">Upcoming
+                                    Releases</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Store</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
+                            <li><a href="sale-designs-page1.html#sale-designs" class="menu-link">Sale Designs</a></li>
+                            <li><a href="news.html" class="menu-link">News</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Community</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Short Stories</a>
+                            </li>
+                            <li><a href="collaboration.html" class="menu-link">Collaboration</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="about.html" class="menu-link">About</a></li>
+                    <li class="has-submenu"><a href="support.html" class="menu-link">Support</a></li>
+                    <!-- Add more main menu items as needed -->
+
+                    <div class="footer">
+                        <img src="YZD-Design-Logo-(NEW).png" alt="" class="logo-footer">
+                        <p>Copyright &copy; 2024 YZD Design. All rights reserved. <a
+                                href="mailto:yzddesign1@gmail.com">Feedback</a> | <a
+                                href="mailto:yzddesign1@gmail.com">Contact</a></p>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="overlay"></div>
+    </section>
+
+    <div class="second-navbar">
+        <li class="dropdown">
+            <a href="#" class="nama-second-navbar">Your Store</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="home.html#coming-soon" class="menu-link">Home</a>
+                <a href="sale-designs-page1.html#sale-designs" class="menu-link">Sale Designs</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="nama-second-navbar">New & Noteworthy</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="short-story-categories.html#coming-soon" class="menu-link">Top Short Stories</a>
+                <a href="new-releases.html#new-releases" class="menu-link">New Releases</a>
+                <a href="upcoming-releases.html#upcoming-releases" class="menu-link">Upcoming Releases</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="nama-second-navbar">Categories</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="category-action.html#new-releases" class="menu-link">Action</a>
+                <a href="category-anime.html#new-releases" class="menu-link">Anime</a>
+                <a href="category-horror.html#new-releases" class="menu-link">Horror</a>
+                <a href="category-survival.html#new-releases" class="menu-link">Survival</a>
+            </div>
+        </li>
+        <li><a href="news.html" class="nama-second-navbar-disable">News</a></li>
+        <div class="box-input">
+            <input type="text" id="searchInput" placeholder="search" onkeyup="checkEnter(event)">
+            <button onclick="search()" id="btn-search"><img src="LOGO SEARCH.png" alt="" class="logo-search"></button>
+        </div>
+    </div>
+
+    <div class="shortstory-card" id="jukoku">
+        <div class="shortstory-image">
+            <img src="https://iamyzddesign.github.io/thumbnail-1/JUKOKU (THUMBNAIL).jpg" alt="">
+        </div>
+        <div class="shortstory-info">
+            <h2 class="shortstory-title">Jukoku</h2>
+            <div class="creator-info">
+                <p>Creator: <a href="#">YZD Design</a></p>
+                <p>Publisher: <a href="#">YZD Design</a></p>
+                <p>Released: <span>31 Oct, 2024</span></p>
+            </div>
+            <div class="shortstory-description">
+                <p>"Jukoku" is a horror anime film that follows the story of Mizuki, a young man trapped in a cursed
+                    city. Once a peaceful and lively town, the city is now shrouded in an oppressive darkness. People
+                    have begun to experience strange events and disappear one by one, leaving only faint whispers and
+                    traces of blood in the dark corners of the streets.</p>
+            </div>
+            <div class="tags">
+                <span class="tag">Action</span>
+                <span class="tag">Anime</span>
+                <span class="tag">Horror</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-screenshot">
+        <img src="https://iamyzddesign.github.io/screenshot-1/JUKOKU (SCREENSHOT) 1.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/JUKOKU (SCREENSHOT) 2.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/JUKOKU (SCREENSHOT) 3.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/JUKOKU (SCREENSHOT) 4.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/JUKOKU (SCREENSHOT) 5.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/JUKOKU (SCREENSHOT) 6.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/JUKOKU (SCREENSHOT) 7.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/JUKOKU (SCREENSHOT) 8.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/JUKOKU (SCREENSHOT) 9.jpg" alt="">
+    </div>
+
+    <div class="container-shortstory">
+        <p class="paragraph-shortstory">Mizuki melangkah keluar dari kereta yang berhenti di Stasiun Yomino, menghirup
+            udara dingin yang menyentuh kulitnya. Suasana di sekitar stasiun terasa suram; langit mendung, dan angin
+            berhembus lembut, seakan berusaha mengingatkan setiap jiwa yang datang ke kota ini untuk berhati-hati. Dia
+            melihat sekeliling, menemukan stasiun itu kosong dan hampa, tanpa suara kecuali desahan angin yang menembus
+            celah-celah bangunan tua. Mizuki: (dalam hati) "Ini adalah awal yang baru. Semua yang lalu akan ku
+            tinggalkan di belakang."</p>
+
+        <p class="paragraph-shortstory">Dia mengatur langkahnya menuju pintu keluar, koper kecil di tangan, penuh
+            harapan dan cita-cita untuk memulai kehidupan baru. Namun, setiap langkahnya terasa berat, seolah tanah di
+            bawahnya ingin menahannya tetap di tempatnya.</p>
+
+        <p class="paragraph-shortstory">Setelah menyewa sebuah rumah tua di pinggir kota, Mizuki merasa sedikit lega.
+            Rumah itu terlihat seperti sudah lama ditinggalkan, dindingnya penuh dengan jamur dan cat yang mengelupas.
+            Meskipun demikian, dia bertekad untuk memperbaikinya, membuat tempat ini sebagai tempat perlindungannya.
+            Mizuki: "Aku akan membuat tempat ini nyaman. Ini adalah rumahku sekarang."</p>
+
+        <p class="paragraph-shortstory">Malam pertama di rumah itu, suara-suara aneh mulai terdengar dari lantai atas.
+            Suara berderak seakan ada sesuatu yang bergerak. Meskipun berusaha untuk tidak menghiraukannya, ketakutan
+            mulai menyelimuti pikiran Mizuki. Mizuki: "Mungkin hanya angin… atau suara tua rumah ini."</p>
+
+        <p class="paragraph-shortstory">Namun, dia tidak bisa menahan rasa ingin tahunya. Kekhawatiran Mizuki tidak
+            berkurang di malam kedua. Terbangun dari tidur, dia mendengar langkah kaki yang perlahan menghampiri
+            kamarnya, gemerincing yang tidak biasa membuat hatinya berdebar. Dalam gelap, dia menegakkan tubuhnya,
+            berusaha mendengarkan suara itu. Mizuki: (berbisik) "Tenanglah, Mizuki. Ini hanya suara biasa…"</p>
+
+        <p class="paragraph-shortstory">Dia memberanikan diri untuk menyalakan lampu, berharap bisa menyingkirkan
+            kegelapan yang membuatnya gelisah. Namun, ketika cahaya menyinari ruangan, tidak ada satu pun yang terlihat.
+            Hanya kesunyian yang mendalam menyambutnya.</p>
+
+        <p class="paragraph-shortstory">Keesokan paginya, Mizuki memutuskan untuk menjelajahi kota. Dia merasa perlu
+            mengenali tempat ini, mencari pekerjaan, dan memulai hidup baru. Saat memasuki kafe kecil di tengah kota,
+            dia bertemu dengan Hana, seorang penduduk lokal dengan senyuman ramah. Hana: "Selamat datang di Yomino!
+            Apakah kau baru di sini?" Mizuki: "Ya, saya Mizuki. Saya baru pindah ke sini dan sedang mencari pekerjaan."
+            Hana menatapnya dengan cermat, seolah mencoba membaca pikirannya. Hana: "Kota ini… bukan tempat yang mudah
+            untuk ditinggali. Banyak yang datang dan pergi, tetapi tidak semua bisa bertahan."</p>
+
+        <p class="paragraph-shortstory">Mizuki merasakan sesuatu yang aneh dalam nada suara Hana, seolah dia menyimpan
+            rahasia yang lebih dalam tentang kota ini. Setelah beberapa hari berlalu, Mizuki mulai mencari pekerjaan di
+            berbagai toko dan perusahaan, namun setiap kali dia menyebutkan alamat tempat tinggalnya, ekspresi pemilik
+            toko berubah suram. Pemilik Toko: "Maaf, kami tidak bisa merekrutmu… ada sesuatu yang aneh di rumah itu."
+            Kekecewaan mulai menggerogoti hati Mizuki. Mizuki: "Tapi aku butuh pekerjaan! Aku tidak bisa tinggal di sini
+            tanpa penghasilan." Pemilik Toko: "Tidak ada yang bisa bertahan lama di sana. Pergilah sebelum terlambat."
+        </p>
+
+        <p class="paragraph-shortstory">Mizuki merasa seolah terjebak dalam siklus putus asa, berusaha mencari cara
+            untuk membebaskan diri dari kota yang terasa semakin mengekang. Mizuki kembali ke kafe tempat Hana bekerja,
+            berharap bisa mendapatkan dukungan. Dia melihat beberapa penduduk lainnya berkumpul dan mengobrol. Mizuki:
+            "Kenapa semua orang tampak begitu ketakutan?" Penduduk 1: "Kau baru di sini. Belajarlah dari pengalaman
+            kami. Banyak yang hilang di kota ini."</p>
+
+        <p class="paragraph-shortstory">Mizuki merasa terasing dan semakin terjebak dalam ketakutan. Dia berusaha untuk
+            tetap berpegang pada harapan, tetapi semakin banyak mendengar cerita aneh tentang kota ini, semakin merasa
+            bahwa dia mungkin telah melakukan kesalahan besar dengan datang ke sini.</p>
+
+        <p class="paragraph-shortstory">Setelah dua minggu tinggal di rumah tua itu, Mizuki menemukan sebuah pintu kecil
+            yang mengarah ke ruang bawah tanah saat sedang membereskan barang-barangnya. Rasa ingin tahunya mendorongnya
+            untuk meneliti lebih jauh. Dia menuruni tangga dan menemukan sebuah buku harian yang ditulis oleh penghuni
+            sebelumnya. Mizuki: "Apa ini? Kenapa semua tulisan ini… mengerikan?"</p>
+
+        <p class="paragraph-shortstory">Buku harian itu penuh dengan catatan tentang ketakutan dan keputusasaan. Salah
+            satu kalimat yang menarik perhatian Mizuki berbunyi, "Tidak ada jalan keluar dari Yomino." Ketika dia
+            membaca itu, kedinginan menjalar di tulang belakangnya, dan dia merasakan kehadiran yang tidak nyaman
+            mengintai di dalam rumahnya.</p>
+
+        <p class="paragraph-shortstory">Mizuki mulai melihat kilasan kenangan dari masa lalunya, saat-saat ketika
+            hidupnya lebih bahagia dan sederhana. Kenangan indah tentang keluarganya dan teman-teman terdekat mulai
+            menghantuinya, tetapi setiap kenangan itu berakhir dengan rasa sakit dan penyesalan. Mizuki: (berbisik)
+            "Mengapa aku selalu teringat akan masa lalu? Aku sudah berusaha melupakan…"</p>
+
+        <p class="paragraph-shortstory">Setiap malam, dia terbangun dengan rasa hampa yang dalam, dan kegelapan di
+            sekelilingnya tampak semakin menghimpit. Suatu malam, saat berjalan pulang dari kafe, Mizuki merasa ada
+            sesuatu yang mengikutinya. Dia berbalik, tetapi hanya kegelapan yang menyambutnya. Hatinya berdebar, dan dia
+            merasa ada sesuatu yang tidak beres. Mizuki: "Siapa itu? Jangan main-main!" Kegelapan di sekitar semakin
+            pekat, dan suara bisikan mulai terdengar. Suara Tak Terlihat: "Kembali… kembali…"</p>
+
+        <p class="paragraph-shortstory">Mizuki berusaha untuk tidak panik, tetapi rasa takut yang mendalam mulai
+            menyelimuti pikirannya. Dia bergegas menuju rumah, berharap bisa menemukan perlindungan. Mizuki bertekad
+            untuk mencari cara keluar dari kota ini. Dia berbicara dengan Hana, yang kini menjadi satu-satunya teman
+            yang bisa dia percayai. Mizuki: "Hana, bagaimana aku bisa pergi dari sini?" Hana: "Hutan di pinggir kota
+            adalah satu-satunya cara. Tapi banyak yang hilang di sana, Mizuki. Kau harus sangat berhati-hati."</p>
+
+        <p class="paragraph-shortstory">Meskipun peringatan itu membuat Mizuki semakin takut, dia tahu bahwa dia tidak
+            bisa bertahan di kota ini lebih lama lagi. Dengan persediaan makanan dan peta usang yang dia temukan di
+            ruang bawah tanah, Mizuki memutuskan untuk berangkat ke hutan. Dia mengemas barang-barangnya, meninggalkan
+            rumah tua yang kini terasa lebih seperti penjara daripada tempat tinggal. Mizuki: "Aku akan pergi malam ini.
+            Aku tidak bisa tinggal di sini lebih lama lagi."</p>
+
+        <p class="paragraph-shortstory">Dia menyiapkan keberaniannya, menutup semua jendela dan pintu, seolah-olah
+            melindungi dirinya dari kegelapan yang mengintai. Setiap detik terasa menyiksa saat dia menunggu malam tiba.
+            Mizuki melangkah ke dalam hutan, di mana suara-suara aneh dan angin dingin menyambutnya. Pepohonan yang
+            tinggi dan lebat seakan menutup jalan, membuatnya merasa terasing. Setiap langkah membuat jantungnya
+            berdebar, dan bayangan seolah mengikuti di belakangnya. Mizuki: (dalam hati) "Kau bisa melakukannya, Mizuki.
+            Ini adalah jalan keluar."</p>
+
+        <p class="paragraph-shortstory">Namun, ketakutan menyelimuti pikirannya. Dalam kegelapan hutan, dia merasakan
+            bahwa bukan hanya dia yang mencari jalan keluar—sesuatu juga sedang mencarinya. Mizuki merasa jantungnya
+            berdegup kencang. Bayangan itu tampak semakin mendekat, meski hanya bisa terlihat sekilas. Dia berusaha
+            meyakinkan dirinya sendiri untuk tidak panik. Mizuki: "Siapa di sana? Tunjukkan dirimu!"</p>
+
+        <p class="paragraph-shortstory">Namun, ketika dia berteriak, suara itu tiba-tiba lenyap, seolah tidak pernah
+            ada. Hutan itu kembali sunyi, hanya suara dedaunan yang bergesekan oleh angin. Mizuki menggigit bibirnya,
+            merasakan keringat dingin mengalir di punggungnya. Dia melanjutkan langkahnya, berusaha menenangkan diri,
+            tetapi ketakutan itu terus mengganggu pikirannya.</p>
+
+        <p class="paragraph-shortstory">Ketika berlari, Mizuki tiba-tiba terjatuh, terjerembab di atas akar pohon yang
+            mencuat. Ketika dia berusaha bangkit, dia melihat seorang pemuda muncul dari balik pepohonan. Pemuda itu
+            tampak terengah-engah, seolah baru saja melarikan diri dari sesuatu yang menakutkan. Pemuda: "Kau… Kau
+            harus pergi! Mereka akan menemukanku!" Mizuki terkejut, bertanya-tanya siapa "mereka" yang dimaksud. Mizuki:
+            "Siapa yang akan menemukanmu? Apa yang terjadi?" Pemuda: "Kota ini… kota ini tidak akan membiarkan kita
+            pergi!"</p>
+
+        <p class="paragraph-shortstory">Dia meraih tangan Mizuki dan menariknya untuk bangkit. Mizuki merasakan urgensi
+            dalam suaranya, dan meskipun ketakutan menyelimutinya, dia tahu bahwa mereka harus bergerak. Mizuki dan
+            pemuda itu, yang memperkenalkan diri sebagai Riku, berlari bersama melalui hutan yang gelap. Mizuki: "Kau
+            sudah lama terjebak di sini, Riku?" Riku: "Aku sudah di sini selama hampir setahun. Setiap kali aku mencoba
+            pergi, sesuatu selalu menarikku kembali."</p>
+
+        <p class="paragraph-shortstory">Mereka berlari sekuat tenaga, mencoba menemukan jalan keluar, tetapi rasa putus
+            asa mulai menyelinap ke dalam hati Mizuki. Saat berlari, suara bisikan yang sama kembali terdengar, kali ini
+            lebih mendesak. Riku tampak panik. Riku: "Mereka sedang mengawasi kita, Mizuki! Cepat!" Mizuki: "Apa yang
+            kau maksud dengan 'mereka'? Apa yang terjadi di kota ini?" Riku: "Kau tidak akan mengerti. Ini semua tentang
+            kutukan kota ini. Mereka adalah jiwa-jiwa yang terjebak!"</p>
+
+        <p class="paragraph-shortstory">Rasa takut dan penasaran bercampur dalam hati Mizuki. Dia tahu bahwa untuk
+            bertahan hidup, mereka harus menemukan jalan keluar sebelum terlambat. Setelah berlari selama berjam-jam,
+            mereka menemukan jalan setapak yang tampak membawa mereka keluar dari hutan. Mizuki: "Kita bisa keluar dari
+            sini! Ayo!"</p>
+
+        <p class="paragraph-shortstory">Namun, suara aneh itu kembali terdengar, dan mereka berdua berhenti. Suara itu
+            bergetar di udara, seolah-olah memperingatkan mereka. Riku: Jangan lihat ke belakang! Kita harus terus
+            bergerak! Tetapi saat mereka berlari, Mizuki merasakan ada sesuatu yang memanggilnya dari belakang, seakan
+            ada kekuatan yang mengikatnya untuk tidak pergi.</p>
+
+        <p class="paragraph-shortstory">Ketika mereka berlari, bayangan gelap muncul di depan mereka, menakut-nakuti
+            mereka. Bayangan itu berbentuk samar, sulit untuk dikenali. Mizuki: "Apa itu?!" Riku: "Jangan dekati! Lari!"
+            Mereka berlari sekuat tenaga, tetapi bayangan itu semakin dekat, seolah-olah berusaha menangkap mereka.
+            Mizuki merasa keputusasaannya semakin mendalam, dan dia tidak tahu berapa lama lagi mereka bisa bertahan.
+        </p>
+
+        <p class="paragraph-shortstory">Mizuki terjatuh lagi, dan Riku membantunya berdiri. Riku: "Cepat! Kita harus
+            terus bergerak!" Namun, saat mereka berlari, jalan setapak itu berbelok tajam, membuat mereka tersesat lebih
+            dalam di hutan. Mizuki: "Di mana kita? Ini tidak terasa seperti jalan keluar!" Riku menatap sekeliling,
+            wajahnya dipenuhi kecemasan. Riku: "Aku tidak tahu. Kita harus menemukan petunjuk, sesuatu yang bisa
+            membantu kita."</p>
+
+        <p class="paragraph-shortstory">Setelah berjam-jam berlari tanpa arah, mereka akhirnya berhenti untuk
+            beristirahat. Mereka duduk di bawah pohon, napas mereka terengah-engah. Mizuki: "Aku tidak tahu seberapa
+            jauh kita telah pergi. Apa kita akan selamat?" Riku: "Kita harus tetap berharap. Ada jalan keluar, aku
+            yakin!" Keduanya saling memandang, ada keputusasaan di mata mereka, tetapi harapan kecil tetap menyala di
+            dalam hati.</p>
+
+        <p class="paragraph-shortstory">Tiba-tiba, mereka melihat sosok wanita misterius berdiri di depan mereka,
+            wajahnya tertutup oleh bayangan. Sosok Wanita: "Kau tidak seharusnya ada di sini…" Mizuki: "Siapa kau?!"
+            Riku: "Jangan dekati dia, Mizuki!" Sosok itu mendekat, dan Mizuki bisa merasakan aura menakutkan yang
+            mengelilinginya.</p>
+
+        <p class="paragraph-shortstory">Ketika sosok wanita itu semakin dekat, Mizuki bisa melihat ekspresi di wajahnya.
+            Dia tampak penuh kesedihan, tetapi ada sesuatu yang mengancam dalam tatapannya. Sosok Wanita: "Kau harus
+            pergi. Kota ini terkutuk. Hanya ada satu cara untuk melarikan diri." Mizuki: "Apa maksudmu? Bagaimana
+            caranya?" Sosok Wanita: "Masuk ke dalam hutan ini… tetapi kau harus menghadapi kegelapanmu sendiri."
+            Kata-kata itu bergetar di hati Mizuki. Dia merasa seolah-olah sosok itu tahu tentang masa lalunya, tentang
+            rasa sakit yang dia coba lupakan.</p>
+
+        <p class="paragraph-shortstory">Setelah sosok itu menghilang, Mizuki dan Riku berdiskusi tentang pilihan mereka.
+            Mizuki: "Apa yang dia maksud dengan kegelapan kita sendiri?" Riku: "Mungkin kita harus menghadapi ketakutan
+            kita. Hanya dengan begitu kita bisa menemukan jalan keluar." Mizuki merasa ragu, tetapi dalam hatinya, dia
+            tahu dia harus menghadapi masa lalu dan segala kesedihan yang mengikutinya.</p>
+
+        <p class="paragraph-shortstory">Mizuki dan Riku melanjutkan perjalanan, semakin dalam ke hutan. Mereka melihat
+            bayangan-bayangan yang tampak seolah berusaha menarik mereka ke arah yang berbeda. Mizuki: "Apa ini? Kita
+            tidak boleh terpengaruh!" Mereka berjuang melawan rasa takut, tetapi bayangan-bayangan itu semakin mendalam.
+            Riku: "Kita harus tetap fokus! Jangan biarkan mereka menghentikan kita!"</p>
+
+        <p class="paragraph-shortstory">Di tengah perjalanan, kenangan-kenangan menyakitkan kembali muncul dalam pikiran
+            Mizuki. Dia teringat akan kegagalannya, kesedihan atas kehilangan orang-orang yang dicintainya. Mizuki:
+            (berbisik) "Mengapa ini terus menghantuiku? Aku hanya ingin melupakan semuanya." Riku berusaha
+            menenangkannya. Riku: "Kau tidak bisa lari dari masa lalu. Hadapi itu, dan kau akan menemukan kekuatan."</p>
+
+        <p class="paragraph-shortstory">Ketika malam tiba, mereka memutuskan untuk beristirahat. Namun, saat mereka
+            tidur, Mizuki terjebak dalam mimpi buruk. Dia melihat sosok-sosok yang pernah hilang dalam hidupnya, wajah
+            mereka penuh kesedihan dan penyesalan. Mizuki: "Maafkan aku… aku tidak bisa menyelamatkan kalian…"
+            Suara-suara itu semakin mendesak, membuatnya terbangun dengan keringat dingin.</p>
+
+        <p class="paragraph-shortstory">Setelah terbangun, Mizuki merasa lelah, tetapi ada tekad baru dalam dirinya. Dia
+            tahu bahwa dia tidak bisa membiarkan ketakutannya menguasai hidupnya. Mizuki: "Aku harus bangkit. Ini adalah
+            waktuku untuk memperjuangkan kebebasanku." Riku melihat semangat di mata Mizuki dan merasa terinspirasi.
+            Riku: "Kita bisa melakukannya bersama, Mizuki."</p>
+
+        <p class="paragraph-shortstory">Setelah beristirahat, mereka melanjutkan perjalanan dengan lebih berani. Dengan
+            keteguhan hati, mereka menjelajahi hutan, berusaha menemukan jalan keluar. Mizuki: "Ayo, kita pasti bisa
+            menemukan jalan pulang!" Ketika mereka bergerak maju, mereka melihat cahaya samar di kejauhan, seolah-olah
+            harapan baru sedang menunggu mereka.</p>
+
+        <p class="paragraph-shortstory">Ketika mereka mendekati cahaya, mereka merasakan sesuatu yang berbeda. Semangat
+            dan harapan mulai mengisi hati mereka. Riku: "Apakah itu… cahaya keluar?" Mizuki: "Kita hampir sampai!"
+            Mereka berlari menuju cahaya, merasakan kebebasan yang mungkin akan segera mereka raih. Ketika mereka
+            mendekat, cahaya itu semakin terang, membimbing mereka keluar dari hutan.</p>
+
+        <p class="paragraph-shortstory">Saat akhirnya melangkah keluar dari hutan, Mizuki dan Riku tertegun. Mereka
+            berada di tepi sungai yang mengalir jernih, dengan sinar matahari menyinari wajah mereka. Mizuki: "Kita
+            berhasil… kita keluar dari hutan!" Riku: "Ini… ini luar biasa!" Mereka merasa lega, tetapi Mizuki tahu bahwa
+            perjalanan mereka belum sepenuhnya selesai. Kota Yomino masih menyimpan banyak rahasia.</p>
+
+        <p class="paragraph-shortstory">Saat mereka melangkah kembali menuju kota, Mizuki tahu dia harus menghadapi masa
+            lalunya. Mizuki: "Aku tidak bisa terus lari dari ini. Aku harus kembali dan menghadapi kegelapan yang
+            mengikutiku." Riku mengangguk, mendukung keputusan Mizuki. Riku: "Aku akan bersamamu. Kita bisa melakukan
+            ini bersama-sama."</p>
+
+        <p class="paragraph-shortstory">Dengan tekad baru, mereka kembali ke Yomino, tempat yang pernah menjadi mimpi
+            buruk bagi Mizuki. Dia merasakan ketegangan di udara, tetapi kali ini dia tidak merasa sendiri. Riku ada di
+            sampingnya. Mizuki: "Apa yang harus kita lakukan sekarang?" Riku: "Kita harus mencari tahu lebih banyak
+            tentang kutukan ini. Mungkin ada cara untuk membebaskan jiwa-jiwa yang terjebak."</p>
+
+        <p class="paragraph-shortstory">Mereka mengunjungi kafe tempat Hana bekerja, berharap mendapatkan informasi
+            lebih lanjut. Ketika mereka memasuki kafe, mereka merasakan suasana yang berbeda—seolah semua orang tahu
+            tentang kembalinya Mizuki. Hana: "Kau kembali! Apa yang terjadi di hutan?" Mizuki menceritakan pengalaman
+            mereka dan tentang wanita misterius yang mereka temui. Hana: "Kau harus berhati-hati. Banyak yang telah
+            mencoba dan gagal menghadapi kutukan ini."</p>
+
+        <p class="paragraph-shortstory">Setelah berbicara dengan Hana, mereka memutuskan untuk mencari petunjuk lebih
+            lanjut tentang kutukan kota. Mereka mengunjungi perpustakaan tua yang jarang dikunjungi. Mizuki: "Di mana
+            kita bisa menemukan informasi tentang kutukan ini?" Setelah beberapa waktu mencari, mereka menemukan buku
+            tua yang menceritakan sejarah kota Yomino dan kutukannya.</p>
+
+        <p class="paragraph-shortstory">Buku itu mengungkapkan bahwa kota ini pernah makmur, tetapi kutukan muncul
+            setelah tragedi yang melibatkan seorang wanita yang dituduh melakukan sihir. Sejak saat itu, jiwa-jiwa yang
+            terjebak tidak bisa pergi. Riku: "Kita harus mencari tahu siapa wanita itu. Mungkin ada cara untuk
+            membebaskan jiwa-jiwa yang terjebak." Mizuki merasa ada harapan baru di dalam hatinya.</p>
+
+        <p class="paragraph-shortstory">Dengan informasi baru, mereka mempersiapkan diri untuk menghadapi kegelapan yang
+            mengancam mereka. Mizuki tahu bahwa dia harus mengatasi ketakutannya dan menghadapi masa lalu yang
+            menyakitkan. Mizuki: "Aku tidak bisa membiarkan masa laluku menguasai hidupku. Kita harus melawan!" Riku
+            mengangguk, menunjukkan dukungannya.</p>
+
+        <p class="paragraph-shortstory">Dengan tekad yang bulat, mereka berangkat ke tempat di mana mereka percaya bisa
+            membebaskan jiwa-jiwa yang terjebak. Mereka menuju tempat di mana tragedi itu terjadi, berharap bisa
+            menemukan cara untuk mematahkan kutukan. Mizuki: "Kita tidak boleh menyerah! Ini untuk semua jiwa yang
+            terjebak di sini!"</p>
+
+        <p class="paragraph-shortstory">Saat mereka sampai, suasana menjadi mencekam. Suara bisikan mulai terdengar, dan
+            bayangan-bayangan gelap muncul di sekitar mereka. Riku: "Mizuki, bersiaplah! Ini adalah momen kita!" Mereka
+            berjuang melawan kegelapan, mengingat semua kekuatan yang mereka miliki. Mizuki tahu bahwa ini adalah
+            pertarungan terakhir mereka, dan dia tidak akan mundur.</p>
+
+        <p class="paragraph-shortstory">Dengan keberanian yang baru ditemukan, Mizuki melangkah maju, berteriak dengan
+            segenap hati. Mizuki: "Aku tidak takut lagi! Aku siap menghadapi kegelapan!" Cahaya mulai memancar dari
+            dalam dirinya, menerangi kegelapan yang mengelilingi mereka. Ketika cahaya itu semakin terang, suara-suara
+            bisikan mulai menghilang, dan bayangan-bayangan itu mulai memudar.</p>
+
+        <p class="paragraph-shortstory">Akhirnya, kegelapan itu menghilang sepenuhnya, dan suasana menjadi tenang.
+            Mizuki dan Riku terengah-engah, tetapi mereka tahu bahwa mereka telah berhasil. Mizuki: "Kita berhasil… kita
+            memecahkan kutukan!" Riku tersenyum, dan mereka saling berpelukan, merayakan kemenangan mereka.</p>
+
+        <p class="paragraph-shortstory">Ketika mereka kembali ke kota, jiwa-jiwa yang terjebak mulai muncul satu per
+            satu, berterima kasih kepada Mizuki dan Riku. Wanita yang pernah muncul di hadapan mereka juga muncul, kali
+            ini dengan senyuman damai. Sosok Wanita: "Terima kasih, anak-anak. Kalian telah membebaskan kami." Mizuki
+            merasakan beban berat di dadanya terangkat. Dia tahu bahwa dia telah melakukan sesuatu yang besar.</p>
+
+        <p class="paragraph-shortstory">Dengan kutukan yang telah dipatahkan, Mizuki dan Riku memutuskan untuk tetap di
+            Yomino, membantu membangun kembali kota yang telah lama terpuruk. Mizuki: "Sekarang kita bisa mulai lagi,
+            Riku. Kita bisa membangun masa depan yang lebih baik." Riku: "Aku di sini bersamamu, Mizuki. Mari kita buat
+            kota ini menjadi tempat yang lebih baik." Dengan semangat baru, mereka melanjutkan perjalanan mereka, siap
+            menghadapi tantangan yang akan datang. Mereka tahu bahwa bersama, mereka bisa mengatasi apa pun.</p>
+
+        <h2 class="note">Disclaimer: This story is purely fictional. We apologize if there are any similarities in
+            names, places, times, or dates. Thank you!</h2>
+    </div>
+
+    <!-- Add here -->
+    <link rel="Shortcut Icon" type="image/png" href="YZD LOGO.png">
+
+    <script>
+        function search() {
+            var input, filter, elements, i, txtValue;
+            input = document.getElementById('searchInput');
+            filter = input.value.toUpperCase();
+            elements = document.querySelectorAll('*'); // Mengambil semua elemen dalam dokumen
+            matchFound = false;
+
+            elements.forEach(function (element) {
+                txtValue = element.textContent || element.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    var pageURL = window.location.href; // Mendapatkan URL halaman saat ini
+                    var baseURL = pageURL.substring(0, pageURL.lastIndexOf("/") + 1); // Mendapatkan baseURL
+
+                    // Jika ditemukan elemen yang cocok, langsung arahkan pengguna ke halaman yang sesuai
+                    if (element.tagName === 'A' && txtValue.toUpperCase() === filter) {
+                        var link = element.getAttribute("href");
+                        window.location.href = baseURL + link; // Redirect ke halaman yang sesuai
+                        matchFound = true;
+                    }
+                }
+            });
+
+            if (!matchFound) {
+                alert("Page not found!");
+            }
+        }
+
+        function clearSearchInput() {
+            var input = document.getElementById('searchInput');
+            if (input) {
+                input.value = '';
+            }
+        }
+
+        window.onload = clearSearchInput;
+
+        // Fungsi untuk mengecek jika tombol enter ditekan
+        function checkEnter(event) {
+            if (event.keyCode === 13) { // 13 adalah kode tombol enter
+                search(); // Panggil fungsi pencarian jika tombol enter ditekan
+            }
+        }
+    </script>
+
+    <script src="hamburger.js"></script>
+</body>
+
+</html>
