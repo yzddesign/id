@@ -869,7 +869,6 @@ h5:hover {
 .card-content {
 	padding: 15px;
 	text-align: left;
-	font-family: sans-serif;
 }
 
 .container {
@@ -897,13 +896,29 @@ h5:hover {
 
 .card-item div {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
+}
+
+.title-and-releasesdate {
+    display: flex;
+    flex-direction: column;
 }
 
 .card-title {
 	font-size: 0.8rem;
 	color: white;
 	width: max-content;
+}
+
+.releases-date {
+    color: #297aa9;
+    font-size: 9px;
+}
+
+.free-to-read {
+    color: yellow;
+    font-size: 11px;
+    margin-top: 5px;
 }
 
 /* */
@@ -1733,13 +1748,18 @@ h5:hover {
 }
 
 @media screen and (width: 360px) {
-	.card-title {
-		font-size: 0.7rem;
-		width: 150px;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
+	.card-item div {
+        display: flex;
+        align-items: flex-start;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 250px;
+    }
+
+    .card-title {
+        font-size: 0.7rem;
+    }
 }
 
 @media screen and (width: 320px) {
@@ -1747,13 +1767,18 @@ h5:hover {
 		font-size: 0.6em;
 	}
 
-	.card-title {
-		font-size: 0.8rem;
-		width: 150px;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
+	.card-item div {
+        display: flex;
+        align-items: flex-start;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 250px;
+    }
+
+    .card-title {
+        font-size: 0.8rem;
+    }
 }
 
 
@@ -1795,13 +1820,18 @@ h5:hover {
 		font-size: 0.7rem;
 	}
 
-	.card-title {
-		font-size: 0.8rem;
-		width: 150px;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
+	.card-item div {
+        display: flex;
+        align-items: flex-start;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 250px;
+    }
+
+    .card-title {
+        font-size: 0.8rem;
+    }
 
 	button {
 		font-size: 10px;
@@ -1845,13 +1875,18 @@ h5:hover {
 		font-size: 0.7rem;
 	}
 
-	.card-title {
-		font-size: 0.8rem;
-		width: 200px;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
+	.card-item div {
+        display: flex;
+        align-items: flex-start;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 300px;
+    }
+
+    .card-title {
+        font-size: 0.8rem;
+    }
 
 	button {
 		font-size: 10px;

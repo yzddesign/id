@@ -487,7 +487,6 @@ h5:hover {
 .card-content {
     padding: 15px;
     text-align: left;
-    font-family: sans-serif;
 }
 
 .container {
@@ -515,7 +514,23 @@ h5:hover {
 
 .card-item div {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.title-and-releasesdate {
+    display: flex;
+    flex-direction: column;
+}
+
+.releases-date {
+    color: #297aa9;
+    font-size: 9px;
+}
+
+.free-to-read {
+    color: yellow;
+    font-size: 11px;
+    margin-top: 5px;
 }
 
 .card-title-popularnewreleases {
@@ -750,7 +765,7 @@ h5:hover {
 
     .card-item div {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .card-title-popularnewreleases {
@@ -1075,7 +1090,7 @@ h5:hover {
 
     .card-item div {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .card-title-popularnewreleases {
@@ -1413,7 +1428,7 @@ h5:hover {
 
     .card-item div {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .card-title-popularnewreleases {

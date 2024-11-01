@@ -64,3 +64,34 @@ function showMoreAllItems() {
     // Change button text after showing all cards
     btnText.style.display = 'none'; // Hide the button after cards are shown
 }
+
+
+
+function showMoreAllItems2() {
+    var hiddenCards = document.querySelectorAll('.hiddenallitems2');
+    var btnText = document.getElementById("showMoreAllItems2");
+
+    hiddenCards.forEach((card, index) => {
+        // Show all hidden cards
+        card.classList.remove('hiddenallitems2');
+    });
+
+    // Change button text after showing all cards
+    btnText.style.display = 'none'; // Hide the button after cards are shown
+}
+
+
+
+const cards = document.querySelectorAll('.card-item:not(.visible)');
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+        }
+    });
+});
+
+cards.forEach(card => {
+    observer.observe(card);
+});
