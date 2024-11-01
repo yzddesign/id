@@ -229,35 +229,43 @@ a:hover {
 	z-index: 1;
     position: absolute;
     list-style: none;
-    margin: 0;
     margin-top: 0;
     padding: 0;
     color: white;
     cursor: pointer;
-    font-size: 13px;
-    background-color: #c7d5e0;
-    width: 250px;
-    color: #1b1b1b;
+    font-size: 15px;
+	font-weight: normal;
+    background-color: #243644;
+    width: 280px;
+    color: white;
+}
+
+.suggestion-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 .suggestion-item {
 	display: flex;
 	align-items: center;
 	cursor: pointer;
-	padding: 2px;
+	padding: 5px;
 	gap: 5px;
-	width: 235px;
+	width: 265px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.suggestion-item:hover {
-	color: #297aa9;
+.suggestion-price {
+	font-size: 10px;
+	font-weight: normal;
+	color: white;
 }
 
 .suggestion-image {
-	width: 50px;
+	width: 85px;
 	height: auto;
 }
 
