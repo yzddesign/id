@@ -414,7 +414,7 @@ p {
 .suggestions-list:focus,
 .suggestions-list:active {
     outline: none;
-    background-color: transparent;
+    background-color: #c7d5e0;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
