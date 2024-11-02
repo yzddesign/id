@@ -1,4 +1,4 @@
-const data = [
+const data2 = [
     { name: "Jukoku", url: "jukoku.html#jukoku", },
     { name: "Kodoku : Living In The Cursed City", url: "kodoku-living-in-the-cursed-city.html#kodoku-living-in-the-cursed-city" },
     { name: "Unknown Corporation : Secret Mission #S2", url: "unknown-corporation-secret-mission-season2.html#unknown-corporation-secret-mission-season2" },
@@ -13,25 +13,25 @@ const data = [
     { name: "Still Alive 2", url: "still-alive-2.html#still-alive-2" }
 ];
 
-const searchInput = document.getElementById('searchInput2');
-const suggestionsList = document.getElementById('suggestions');
+const searchInput2 = document.getElementById('searchInput2');
+const suggestionsList2 = document.getElementById('suggestions-yzddesignsearch');
 
-searchInput.addEventListener('input', () => {
-    const query = searchInput.value.toLowerCase();
-    suggestionsList.innerHTML = '';
+searchInput2.addEventListener('input', () => {
+    const query = searchInput2.value.toLowerCase();
+    suggestionsList2.innerHTML = '';
 
     if (query) {
-        const suggestions = data.filter(item => item.name.toLowerCase().includes(query));
+        const suggestions = data2.filter(item => item.name.toLowerCase().includes(query));
         suggestions.forEach(suggestion => {
             const li = document.createElement('li');
             li.textContent = suggestion.name;
             li.addEventListener('click', () => {
                 window.location.href = suggestion.url; // Mengarahkan ke URL
             });
-            suggestionsList.appendChild(li);
+            suggestionsList2.appendChild(li);
         });
-        suggestionsList.style.display = suggestions.length ? 'block' : 'none';
+        suggestionsList2.style.display = suggestions.length ? 'block' : 'none';
     } else {
-        suggestionsList.style.display = 'none';
+        suggestionsList2.style.display = 'none';
     }
 });

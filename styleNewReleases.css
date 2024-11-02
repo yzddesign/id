@@ -220,7 +220,7 @@ a:hover {
 }
 
 #suggestions {
-	z-index: 1;
+    z-index: 1;
     position: absolute;
     list-style: none;
     margin-top: 0;
@@ -228,39 +228,39 @@ a:hover {
     color: white;
     cursor: pointer;
     font-size: 15px;
-	font-weight: normal;
+    font-weight: normal;
     background-color: #243644;
     width: 280px;
     color: white;
 }
 
 .suggestion-text {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .suggestion-item {
-	display: flex;
-	align-items: center;
-	cursor: pointer;
-	padding: 5px;
-	gap: 5px;
-	width: 265px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    gap: 5px;
+    width: 265px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
 .suggestion-price {
-	font-size: 10px;
-	font-weight: normal;
-	color: white;
+    font-size: 10px;
+    font-weight: normal;
+    color: white;
 }
 
 .suggestion-image {
-	width: 85px;
-	height: auto;
+    width: 85px;
+    height: auto;
 }
 
 /* SEARCH ENGINE */
@@ -828,6 +828,51 @@ h5:hover {
 }
 
 @media screen and (width: 360px) {
+
+    /* SEARCH ENGINE */
+    #suggestions {
+        z-index: 1;
+        position: absolute;
+        list-style: none;
+        margin-top: 0;
+        padding: 0;
+        color: white;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: normal;
+        background-color: #243644;
+        width: 250px;
+        color: white;
+    }
+
+    .suggestion-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .suggestion-item {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 5px;
+        gap: 5px;
+        width: 235px;
+    }
+
+    .suggestion-price {
+        font-size: 8px;
+        font-weight: normal;
+        color: white;
+    }
+
+    .suggestion-image {
+        width: 75px;
+        height: auto;
+    }
+
+    /* SEARCH ENGINE */
+
     .card-title-popularnewreleases {
         font-size: 0.7rem;
         width: 150px;
@@ -846,6 +891,51 @@ h5:hover {
 }
 
 @media screen and (width: 320px) {
+
+    /* SEARCH ENGINE */
+    #suggestions {
+        z-index: 1;
+        position: absolute;
+        list-style: none;
+        margin-top: 0;
+        padding: 0;
+        color: white;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: normal;
+        background-color: #243644;
+        width: 250px;
+        color: white;
+    }
+
+    .suggestion-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .suggestion-item {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 5px;
+        gap: 5px;
+        width: 235px;
+    }
+
+    .suggestion-price {
+        font-size: 8px;
+        font-weight: normal;
+        color: white;
+    }
+
+    .suggestion-image {
+        width: 75px;
+        height: auto;
+    }
+
+    /* SEARCH ENGINE */
+
     .grid {
         font-size: 0.6em;
     }
@@ -871,6 +961,55 @@ h5:hover {
 
 /* MOBILE DEVICES */
 @media (min-width: 320px) and (max-width: 375px) {
+
+    /* SEARCH ENGINE */
+    #searchInput {
+        width: 90%;
+    }
+
+    #suggestions {
+        z-index: 1;
+        position: absolute;
+        list-style: none;
+        margin-top: 0;
+        padding: 0;
+        color: white;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: normal;
+        background-color: #243644;
+        width: 250px;
+        color: white;
+    }
+
+    .suggestion-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .suggestion-item {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 5px;
+        gap: 5px;
+        width: 235px;
+    }
+
+    .suggestion-price {
+        font-size: 8px;
+        font-weight: normal;
+        color: white;
+    }
+
+    .suggestion-image {
+        width: 75px;
+        height: auto;
+    }
+
+    /* SEARCH ENGINE */
+
     .card-title {
         font-size: 0.7rem;
     }

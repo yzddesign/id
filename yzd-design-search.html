@@ -104,7 +104,7 @@
     <section class="background-1">
         <div class="search-bar">
             <input type="text" id="searchInput2" placeholder="enter search title">
-            <ul id="suggestions" class="suggestions-list"></ul>
+            <ul id="suggestions-yzddesignsearch" class="suggestions-list"></ul>
         </div>
     </section>
 
@@ -316,73 +316,6 @@
             search(); // Panggil fungsi pencarian jika tombol enter ditekan
           }
         }
-    </script>
-
-    <script>
-        function showCard(cardId) {
-            const cards = document.querySelectorAll('.card');
-            cards.forEach(card => {
-                if (card.id === cardId) {
-                    card.style.display = 'block';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        }
-    </script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const container = document.querySelector('.all-card-topnewreleases');
-            const cards = Array.from(container.children);
-        
-            function shuffle(array) {
-                for (let i = array.length - 1; i > 0; i--) {
-                    const j = Math.floor(Math.random() * (i + 1));
-                    [array[i], array[j]] = [array[j], array[i]];
-                }
-                return array;
-            }
-
-            shuffle(cards);
-            cards.forEach(card => container.appendChild(card));
-        })
-    </script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const container = document.querySelector('.wrapper-newreleases-desktop');
-            const cards = Array.from(container.children);
-        
-            function shuffle(array) {
-                for (let i = array.length - 1; i > 0; i--) {
-                    const j = Math.floor(Math.random() * (i + 1));
-                    [array[i], array[j]] = [array[j], array[i]];
-                }
-                return array;
-            }
-
-            shuffle(cards);
-            cards.forEach(card => container.appendChild(card));
-        })
-    </script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const container = document.querySelector('.card-container');
-            const cards = Array.from(container.children);
-        
-            function shuffle(array) {
-                for (let i = array.length - 1; i > 0; i--) {
-                    const j = Math.floor(Math.random() * (i + 1));
-                    [array[i], array[j]] = [array[j], array[i]];
-                }
-                return array;
-            }
-
-            shuffle(cards);
-            cards.forEach(card => container.appendChild(card));
-        })
     </script>
 
 	<script src="hamburger.js"></script>

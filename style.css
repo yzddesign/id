@@ -227,17 +227,17 @@ a:hover {
 
 #suggestions {
 	z-index: 1;
-    position: absolute;
-    list-style: none;
-    margin-top: 0;
-    padding: 0;
-    color: white;
-    cursor: pointer;
-    font-size: 15px;
+	position: absolute;
+	list-style: none;
+	margin-top: 0;
+	padding: 0;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
 	font-weight: normal;
-    background-color: #243644;
-    width: 280px;
-    color: white;
+	background-color: #243644;
+	width: 280px;
+	color: white;
 }
 
 .suggestion-text {
@@ -253,9 +253,9 @@ a:hover {
 	padding: 5px;
 	gap: 5px;
 	width: 265px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .suggestion-price {
@@ -944,8 +944,8 @@ h5:hover {
 }
 
 .title-and-releasesdate {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .card-title {
@@ -955,14 +955,14 @@ h5:hover {
 }
 
 .releases-date {
-    color: #297aa9;
-    font-size: 9px;
+	color: #297aa9;
+	font-size: 9px;
 }
 
 .free-to-read {
-    color: yellow;
-    font-size: 11px;
-    margin-top: 5px;
+	color: yellow;
+	font-size: 11px;
+	margin-top: 5px;
 }
 
 /* */
@@ -1792,37 +1792,127 @@ h5:hover {
 }
 
 @media screen and (width: 360px) {
-	.card-item div {
-        display: flex;
-        align-items: flex-start;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        width: 250px;
-    }
 
-    .card-title {
-        font-size: 0.7rem;
-    }
+	/* SEARCH ENGINE */
+	#suggestions {
+		z-index: 1;
+		position: absolute;
+		list-style: none;
+		margin-top: 0;
+		padding: 0;
+		color: white;
+		cursor: pointer;
+		font-size: 13px;
+		font-weight: normal;
+		background-color: #243644;
+		width: 250px;
+		color: white;
+	}
+
+	.suggestion-text {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.suggestion-item {
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		padding: 5px;
+		gap: 5px;
+		width: 235px;
+	}
+
+	.suggestion-price {
+		font-size: 8px;
+		font-weight: normal;
+		color: white;
+	}
+
+	.suggestion-image {
+		width: 75px;
+		height: auto;
+	}
+
+	/* SEARCH ENGINE */
+
+	.card-item div {
+		display: flex;
+		align-items: flex-start;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 250px;
+	}
+
+	.card-title {
+		font-size: 0.7rem;
+	}
 }
 
 @media screen and (width: 320px) {
+
+	/* SEARCH ENGINE */
+	#suggestions {
+		z-index: 1;
+		position: absolute;
+		list-style: none;
+		margin-top: 0;
+		padding: 0;
+		color: white;
+		cursor: pointer;
+		font-size: 13px;
+		font-weight: normal;
+		background-color: #243644;
+		width: 250px;
+		color: white;
+	}
+
+	.suggestion-text {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.suggestion-item {
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		padding: 5px;
+		gap: 5px;
+		width: 235px;
+	}
+
+	.suggestion-price {
+		font-size: 8px;
+		font-weight: normal;
+		color: white;
+	}
+
+	.suggestion-image {
+		width: 75px;
+		height: auto;
+	}
+
+	/* SEARCH ENGINE */
+
 	.grid {
 		font-size: 0.6em;
 	}
 
 	.card-item div {
-        display: flex;
-        align-items: flex-start;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        width: 250px;
-    }
+		display: flex;
+		align-items: flex-start;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 250px;
+	}
 
-    .card-title {
-        font-size: 0.8rem;
-    }
+	.card-title {
+		font-size: 0.8rem;
+	}
 }
 
 
@@ -1833,6 +1923,47 @@ h5:hover {
 	/* SEARCH ENGINE */
 	#searchInput {
 		width: 90%;
+	}
+
+	#suggestions {
+		z-index: 1;
+		position: absolute;
+		list-style: none;
+		margin-top: 0;
+		padding: 0;
+		color: white;
+		cursor: pointer;
+		font-size: 13px;
+		font-weight: normal;
+		background-color: #243644;
+		width: 250px;
+		color: white;
+	}
+
+	.suggestion-text {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.suggestion-item {
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+		padding: 5px;
+		gap: 5px;
+		width: 235px;
+	}
+
+	.suggestion-price {
+		font-size: 8px;
+		font-weight: normal;
+		color: white;
+	}
+
+	.suggestion-image {
+		width: 75px;
+		height: auto;
 	}
 
 	/* SEARCH ENGINE */
@@ -1865,17 +1996,17 @@ h5:hover {
 	}
 
 	.card-item div {
-        display: flex;
-        align-items: flex-start;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        width: 250px;
-    }
+		display: flex;
+		align-items: flex-start;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 250px;
+	}
 
-    .card-title {
-        font-size: 0.8rem;
-    }
+	.card-title {
+		font-size: 0.8rem;
+	}
 
 	button {
 		font-size: 10px;
@@ -1920,17 +2051,17 @@ h5:hover {
 	}
 
 	.card-item div {
-        display: flex;
-        align-items: flex-start;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        width: 300px;
-    }
+		display: flex;
+		align-items: flex-start;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 300px;
+	}
 
-    .card-title {
-        font-size: 0.8rem;
-    }
+	.card-title {
+		font-size: 0.8rem;
+	}
 
 	button {
 		font-size: 10px;
