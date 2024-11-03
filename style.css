@@ -759,6 +759,7 @@ h5:hover {
 	overflow-x: auto;
 	overflow-y: hidden;
 	scroll-snap-type: x mandatory;
+	padding-bottom: 15px;
 	/* Membuat snap untuk setiap card */
 }
 
