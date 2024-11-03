@@ -616,11 +616,11 @@ h5:hover {
 .read-now {
     background: black;
     color: white;
-    padding: 10px;
+    padding: 13px;
     display: flex;
     text-align: left;
     flex-wrap: wrap;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .hidden1,
@@ -863,11 +863,11 @@ h5:hover {
 .read-now {
     background: black;
     color: white;
-    padding: 10px;
+    padding: 13px;
     display: flex;
     text-align: left;
     flex-wrap: wrap;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 /* COMING SOON */
@@ -1248,11 +1248,11 @@ h5:hover {
     .read-now {
         background: black;
         color: white;
-        padding: 10px;
+        padding: 13px;
         display: flex;
         text-align: left;
         flex-wrap: wrap;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .hidden1,
@@ -1485,7 +1485,7 @@ h5:hover {
     }
 
     .read-now {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 }
 
@@ -1861,11 +1861,11 @@ h5:hover {
     .read-now {
         background: black;
         color: white;
-        padding: 10px;
+        padding: 13px;
         display: flex;
         text-align: left;
         flex-wrap: wrap;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .hidden1,
