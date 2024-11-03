@@ -759,6 +759,7 @@ h5:hover {
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 	padding-bottom: 15px;
+	padding-right: 15px;
 }
 
 .container-browsebycategory::-webkit-scrollbar {
@@ -866,7 +867,7 @@ h5:hover {
 
 /* BANNER */
 .banner-container {
-	padding-top: 30px;
+	padding-top: 45px;
 }
 
 .banner {
@@ -1008,18 +1009,27 @@ h5:hover {
 	justify-content: flex-end;
 	gap: 2px;
 	color: white;
-	cursor: pointer;
 	font-size: 12px;
 }
 
 .word-1 {
 	padding: 4px 5px;
+	cursor: default;
 }
 
 .word-2 {
 	border: 1px solid white;
 	padding: 4px 5px;
 	width: max-content;
+	cursor: pointer;
+}
+
+.word-2:hover {
+	background-color: #3d576dd6;
+}
+
+.word-2 a:hover {
+	color: white;
 }
 
 /* */
