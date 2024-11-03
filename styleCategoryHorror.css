@@ -220,52 +220,52 @@ a:hover {
 }
 
 #suggestions {
-	z-index: 1;
-	position: absolute;
-	list-style: none;
-	margin-top: 0;
-	padding: 0;
-	color: white;
-	cursor: pointer;
-	font-size: 13px;
-	font-weight: 600;
-	background-color: #525260;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-	width: 250px;
-	color: white;
+    z-index: 1;
+    position: absolute;
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #525260;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 250px;
+    color: white;
 }
 
 .suggestion-text {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .suggestion-item:hover {
-	color: #1b1b1b;
+    color: #1b1b1b;
 }
 
 .suggestion-item {
-	display: flex;
-	align-items: center;
-	cursor: pointer;
-	padding: 5px;
-	gap: 5px;
-	width: 235px;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    gap: 5px;
+    width: 235px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .suggestion-price {
-	font-size: 8px;
-	font-weight: normal;
-	color: white;
+    font-size: 8px;
+    font-weight: normal;
+    color: white;
 }
 
 .suggestion-image {
-	width: 70px;
-	height: auto;
+    width: 70px;
+    height: auto;
 }
 
 /* SEARCH ENGINE */
@@ -1336,7 +1336,7 @@ h5:hover {
     }
 
     .card-item-allitems img {
-        width: 130px;
+        width: 155px;
         height: auto;
         margin-right: 20px;
     }
@@ -1356,6 +1356,14 @@ h5:hover {
     .card-title-newreleases {
         font-size: 0.8rem;
         color: white;
+    }
+
+    .releases-date {
+        font-size: 12px;
+    }
+
+    .free-to-read {
+        font-size: 14px;
     }
 
     .hiddenallitems {
@@ -1949,7 +1957,7 @@ h5:hover {
     }
 
     .card-item-allitems img {
-        width: 130px;
+        width: 155px;
         height: auto;
         margin-right: 20px;
     }
@@ -1969,6 +1977,14 @@ h5:hover {
     .card-title-newreleases {
         font-size: 0.8rem;
         color: white;
+    }
+
+    .releases-date {
+        font-size: 12px;
+    }
+
+    .free-to-read {
+        font-size: 14px;
     }
 
     .hiddenallitems {

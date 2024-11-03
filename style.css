@@ -2097,13 +2097,21 @@ h5:hover {
 
 	/* */
 	.card-item img {
-		width: 130px;
+		width: 155px;
 		height: auto;
 		margin-right: 20px;
 	}
 
 	.card-title {
 		font-size: 1rem;
+	}
+
+	.releases-date {
+		font-size: 12px;
+	}
+
+	.free-to-read {
+		font-size: 14px;
 	}
 
 	/* */
@@ -2708,9 +2716,17 @@ h5:hover {
 
 	/* */
 	.card-item img {
-		width: 130px;
+		width: 155px;
 		height: auto;
 		margin-right: 20px;
+	}
+
+	.releases-date {
+		font-size: 12px;
+	}
+
+	.free-to-read {
+		font-size: 14px;
 	}
 
 	/* */
@@ -3356,9 +3372,17 @@ h5:hover {
 
 	/* */
 	.card-item img {
-		width: 130px;
+		width: 155px;
 		height: auto;
 		margin-right: 20px;
+	}
+
+	.releases-date {
+		font-size: 12px;
+	}
+
+	.free-to-read {
+		font-size: 14px;
 	}
 
 	/* */
