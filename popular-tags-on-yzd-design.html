@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="stylePopularTags.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<title>Popular Tags On YZD Design</title>
+</head>
+<body>
+    <section class="background-0">
+        <nav class="mobile-menu">
+            <div class="container-logoweb">
+                <a href="home.html#coming-soon"><img src="YZD-Design-Logo-(NEW).png" alt="" class="logo-website"></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+            </div>
+            <div class="menu-content" id="menu-content">
+                <ul>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">New & Noteworthy</a>
+                        <ul class="submenu">
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Top Short Stories</a></li>
+                            <li><a href="new-releases.html#new-releases" class="menu-link">New Releases</a></li>
+                            <li><a href="upcoming-releases.html#upcoming-releases" class="menu-link">Upcoming Releases</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Store</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
+                            <li><a href="sale-designs-page1.html#sale-designs" class="menu-link">Sale Designs</a></li>
+                            <li><a href="news.html" class="menu-link">News</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Community</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Short Stories</a></li>
+                            <li><a href="collaboration.html" class="menu-link">Collaboration</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="about.html" class="menu-link">About</a></li>
+                    <li class="has-submenu"><a href="support.html" class="menu-link">Support</a></li>
+                    <!-- Add more main menu items as needed -->
+
+                    <div class="footer">
+                        <img src="YZD-Design-Logo-(NEW).png" alt="" class="logo-footer">
+                        <p>Copyright &copy; 2024 YZD Design. All rights reserved. <a href="mailto:yzddesign1@gmail.com">Feedback</a> | <a href="mailto:yzddesign1@gmail.com">Contact</a></p>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        
+        <div id="overlay"></div>
+
+        <div class="second-navbar">
+            <li class="dropdown">
+                <a href="#" class="nama-second-navbar">Your Store</a>
+                <div id="myDropDown" class="dropdown-content">
+                    <a href="home.html#coming-soon" class="menu-link">Home</a>
+                    <a href="sale-designs-page1.html#sale-designs" class="menu-link">Sale Designs</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="nama-second-navbar">New & Noteworthy</a>
+                <div id="myDropDown" class="dropdown-content">
+                    <a href="short-story-categories.html#coming-soon" class="menu-link">Top Short Stories</a>
+                    <a href="new-releases.html#new-releases" class="menu-link">New Releases</a>
+                    <a href="upcoming-releases.html#upcoming-releases" class="menu-link">Upcoming Releases</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="nama-second-navbar">Categories</a>
+                <div id="myDropDown" class="dropdown-content">
+                    <a href="category-action.html#new-releases" class="menu-link">Action</a>
+                    <a href="category-anime.html#new-releases" class="menu-link">Anime</a>
+                    <a href="category-horror.html#new-releases" class="menu-link">Horror</a>
+                    <a href="category-survival.html#new-releases" class="menu-link">Survival</a>
+                </div>
+            </li>
+            <li><a href="news.html" class="nama-second-navbar-disable">News</a></li>
+            <div class="box-input">
+                <input type="text" id="searchInput" placeholder="search" onkeyup="checkEnter(event)">
+                <button onclick="search()" id="btn-search"><img src="LOGO SEARCH.png" alt="" class="logo-search"></button>
+                <ul id="suggestions"></ul>
+            </div>
+        </div>
+
+        <div class="nav-populartags" id="popular-tags">
+            <h3 class="nama-nav">POPULAR TAGS</h3>
+        </div>
+        <p class="populartags-desc">Browse by the most popular tags applied to products, listed in order of how frequently they have been applied.</p>
+    </section>
+
+    <div class="all-elements-wrapper">
+        <div class="sidebar">
+            <ul>
+                <li class="name-tags"><a href="#action">Action</a></li>
+                <li class="name-tags"><a href="#anime">Anime</a></li>
+                <li class="name-tags"><a href="#horror">Horror</a></li>
+                <li class="name-tags"><a href="#survival">Survival</a></li>
+            </ul>
+        </div>
+    
+        <div class="main-content" id="action">
+            <h2 class="title-name">Action</h2>
+            <div class="card-container action">
+                <div class="card"><a href="unknown-corporation-secret-mission-season2.html#unknown-corporation-secret-mission-season2">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/UNKNOWN CORPORATION - SECRET MISSION S2 (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="pirate-king-of-another-world-the-forgotten-one.html#pirate-king-of-another-world-the-forgotten-one">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/PIRATE KING OF ANOTHER WORLD - THE FORGOTTEN ONE (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="loser-no-more-awakening-in-another-world.html#loser-no-more-awakening-in-another-world">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/LOSER NO MORE - AWAKENING IN ANOTHER WORLD (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="the-forest.html#the-forest-survival-isolation">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/THE FOREST - SURVIVAL ISOLATION (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="darkbane-hunters-season1.html#darkbane-hunters-sasori-kurogane-season1">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/DARKBANE HUNTERS (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="jukoku.html#jukoku">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/JUKOKU (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="unknown-corporation-silent-pandemic-season1.html#unknown-corporation-silent-pandemic-season1">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/UNKNOWN (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="kodoku-living-in-the-cursed-city.html#kodoku-living-in-the-cursed-city">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/KODOKU - LIVING IN THE CURSED CITY (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="here.html#here">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/HERE (THUMBNAIL).jpg" alt="">
+                </div></a>
+            </div>
+            <div class="browse-all">
+                <p><a href="category-action.html#new-releases">Browse all</a></p>
+            </div>
+        </div>
+
+
+
+        <div class="main-content" id="anime">
+            <h2 class="title-name">Anime</h2>
+            <div class="card-container anime">
+                <div class="card"><a href="unknown-corporation-secret-mission-season2.html#unknown-corporation-secret-mission-season2">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/UNKNOWN CORPORATION - SECRET MISSION S2 (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="pirate-king-of-another-world-the-forgotten-one.html#pirate-king-of-another-world-the-forgotten-one">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/PIRATE KING OF ANOTHER WORLD - THE FORGOTTEN ONE (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="jukoku.html#jukoku">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/JUKOKU (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="loser-no-more-awakening-in-another-world.html#loser-no-more-awakening-in-another-world">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/LOSER NO MORE - AWAKENING IN ANOTHER WORLD (THUMBNAIL).jpg" alt="">
+                </div></a>
+                
+                <div class="card"><a href="kodoku-living-in-the-cursed-city.html#kodoku-living-in-the-cursed-city">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/KODOKU - LIVING IN THE CURSED CITY (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="the-forest.html#the-forest-survival-isolation">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/THE FOREST - SURVIVAL ISOLATION (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="darkbane-hunters-season1.html#darkbane-hunters-sasori-kurogane-season1">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/DARKBANE HUNTERS (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="unknown-corporation-silent-pandemic-season1.html#unknown-corporation-silent-pandemic-season1">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/UNKNOWN (THUMBNAIL).jpg" alt="">
+                </div></a>
+            </div>
+            <div class="browse-all">
+                <p><a href="category-anime.html#new-releases">Browse all</a></p>
+            </div>
+        </div>
+
+
+
+        <div class="main-content" id="horror">
+            <h2 class="title-name">Horror</h2>
+            <div class="card-container horror">
+                <div class="card"><a href="the-forest.html#the-forest-survival-isolation">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/THE FOREST - SURVIVAL ISOLATION (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="darkbane-hunters-season1.html#darkbane-hunters-sasori-kurogane-season1">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/DARKBANE HUNTERS (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="jukoku.html#jukoku">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/JUKOKU (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="kodoku-living-in-the-cursed-city.html#kodoku-living-in-the-cursed-city">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/KODOKU - LIVING IN THE CURSED CITY (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="here.html#here">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/HERE (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="signal.html#signal">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/SIGNAL (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="still-alive-1.html#still-alive-1">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/STILL ALIVE 1 (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="still-alive-2.html#still-alive-2">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/STILL ALIVE 2 (THUMBNAIL).jpg" alt="">
+                </div></a>
+            </div>
+            <div class="browse-all">
+                <p><a href="category-horror.html#new-releases">Browse all</a></p>
+            </div>
+        </div>
+
+
+
+        <div class="main-content" id="survival">
+            <h2 class="title-name">Survival</h2>
+            <div class="card-container survival">
+                <div class="card"><a href="unknown-corporation-secret-mission-season2.html#unknown-corporation-secret-mission-season2">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/UNKNOWN CORPORATION - SECRET MISSION S2 (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="pirate-king-of-another-world-the-forgotten-one.html#pirate-king-of-another-world-the-forgotten-one">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/PIRATE KING OF ANOTHER WORLD - THE FORGOTTEN ONE (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="loser-no-more-awakening-in-another-world.html#loser-no-more-awakening-in-another-world">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/LOSER NO MORE - AWAKENING IN ANOTHER WORLD (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="the-forest.html#the-forest-survival-isolation">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/THE FOREST - SURVIVAL ISOLATION (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="darkbane-hunters-season1.html#darkbane-hunters-sasori-kurogane-season1">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/DARKBANE HUNTERS (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="unknown-corporation-silent-pandemic-season1.html#unknown-corporation-silent-pandemic-season1">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/UNKNOWN (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="signal.html#signal">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/SIGNAL (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="still-alive-1.html#still-alive-1">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/STILL ALIVE 1 (THUMBNAIL).jpg" alt="">
+                </div></a>
+
+                <div class="card"><a href="still-alive-2.html#still-alive-2">
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/STILL ALIVE 2 (THUMBNAIL).jpg" alt="">
+                </div></a>
+            </div>
+            <div class="browse-all">
+                <p><a href="category-survival.html#new-releases">Browse all</a></p>
+            </div>
+        </div>
+    </div>
+
+	<!-- Add here -->
+	<link
+		rel="Shortcut Icon"
+		type="image/png"
+		href="YZD LOGO.png"
+	>
+
+    <script>
+        function search() {
+          var input, filter, elements, i, txtValue;
+          input = document.getElementById('searchInput');
+          filter = input.value.toUpperCase();
+          elements = document.querySelectorAll('*'); // Mengambil semua elemen dalam dokumen
+          matchFound = false;
+      
+          elements.forEach(function(element) {
+            txtValue = element.textContent || element.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              var pageURL = window.location.href; // Mendapatkan URL halaman saat ini
+              var baseURL = pageURL.substring(0, pageURL.lastIndexOf("/") + 1); // Mendapatkan baseURL
+      
+              // Jika ditemukan elemen yang cocok, langsung arahkan pengguna ke halaman yang sesuai
+              if (element.tagName === 'A' && txtValue.toUpperCase() === filter) {
+                var link = element.getAttribute("href");
+                window.location.href = baseURL + link; // Redirect ke halaman yang sesuai
+                matchFound = true;
+              }
+            }
+          });
+
+            if (!matchFound) {
+                alert("Page not found!");
+            }
+        }
+
+        function clearSearchInput() {
+            var input = document.getElementById('searchInput');
+            if (input) {
+                input.value = '';
+            }
+        }
+
+        window.onload = clearSearchInput;
+      
+        // Fungsi untuk mengecek jika tombol enter ditekan
+        function checkEnter(event) {
+          if (event.keyCode === 13) { // 13 adalah kode tombol enter
+            search(); // Panggil fungsi pencarian jika tombol enter ditekan
+          }
+        }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.querySelector('.action');
+            const cards = Array.from(container.children);
+
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            shuffle(cards);
+            cards.forEach(card => container.appendChild(card));
+        })
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.querySelector('.anime');
+            const cards = Array.from(container.children);
+
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            shuffle(cards);
+            cards.forEach(card => container.appendChild(card));
+        })
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.querySelector('.horror');
+            const cards = Array.from(container.children);
+
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            shuffle(cards);
+            cards.forEach(card => container.appendChild(card));
+        })
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.querySelector('.survival');
+            const cards = Array.from(container.children);
+
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            shuffle(cards);
+            cards.forEach(card => container.appendChild(card));
+        })
+    </script>
+
+	<script src="hamburger.js"></script>
+    <script src="collapsible-populartags.js"></script>
+    <script src="search-engine-allpages.js"></script>
+</body>
+</html>
