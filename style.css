@@ -866,7 +866,7 @@ h5:hover {
 
 /* BANNER */
 .banner-container {
-	padding-top: 80px;
+	padding-top: 30px;
 }
 
 .banner {
@@ -1006,12 +1006,10 @@ h5:hover {
 .see-more {
 	display: flex;
 	justify-content: flex-end;
-	float: right;
 	gap: 2px;
 	color: white;
 	cursor: pointer;
 	font-size: 12px;
-	width: max-content;
 }
 
 .word-1 {
@@ -1021,6 +1019,7 @@ h5:hover {
 .word-2 {
 	border: 1px solid white;
 	padding: 4px 5px;
+	width: max-content;
 }
 
 /* */
