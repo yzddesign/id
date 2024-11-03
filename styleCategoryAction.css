@@ -876,13 +876,6 @@ h5:hover {
     gap: 10px;
 }
 
-.comingsoon-card {
-    border-radius: 3px;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 3px 3px 3px #171a21;
-}
-
 .comingsoon-card img {
     width: 100%;
     height: auto;

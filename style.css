@@ -933,9 +933,9 @@ h5:hover {
 }
 
 .card-readnow {
-	padding: 10px;
+	padding: 6px;
 	background: linear-gradient(to bottom, #2a475e, rgb(45, 65, 89));
-	font-size: 13px;
+	font-size: 10px;
 	color: #fff;
 }
 
