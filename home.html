@@ -1860,19 +1860,6 @@
     </script>
 
     <script>
-        function showCard(cardId) {
-            const cards = document.querySelectorAll('.card');
-            cards.forEach(card => {
-                if (card.id === cardId) {
-                    card.style.display = 'block';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        }
-    </script>
-
-    <script>
         document.addEventListener("DOMContentLoaded", () => {
             const container = document.querySelector('.all-card-topnewreleases');
             const cards = Array.from(container.children);
@@ -1893,6 +1880,24 @@
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const container = document.querySelector('.wrapper-newreleases-desktop');
+            const cards = Array.from(container.children);
+        
+            function shuffle(array) {
+                for (let i = array.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [array[i], array[j]] = [array[j], array[i]];
+                }
+                return array;
+            }
+
+            shuffle(cards);
+            cards.forEach(card => container.appendChild(card));
+        })
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const container = document.querySelector('.container-browsebycategory');
             const cards = Array.from(container.children);
         
             function shuffle(array) {
