@@ -577,6 +577,7 @@ h5:hover {
 	cursor: pointer;
 	overflow: visible;
 	position: relative;
+	scroll-snap-align: start;
 }
 
 .card-specialoffers-single {
@@ -589,6 +590,7 @@ h5:hover {
 	cursor: pointer;
 	overflow: visible;
 	position: relative;
+	scroll-snap-align: start;
 }
 
 .card-image {
@@ -748,50 +750,77 @@ h5:hover {
 
 /* SPECIAL OFFERS */
 
-/* CARD POPULAR SHORT STORIES */
-.all-card-popularshortstories {
+/* BROWSE BY CATEGORY */
+.container-browsebycategory {
 	display: flex;
-	justify-content: flex-start;
-	align-items: flex-start;
 	gap: 10px;
-	overflow: auto;
-	scroll-snap-type: x mandatory;
 	margin: 10px;
-	padding-bottom: 15px;
-	padding-right: 15px;
-	padding-top: 5px;
+	margin-top: 25px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	scroll-snap-type: x mandatory;
+	/* Membuat snap untuk setiap card */
 }
 
-.all-card-popularshortstories::-webkit-scrollbar {
+.container-browsebycategory::-webkit-scrollbar {
 	height: 8px;
 }
 
-.all-card-popularshortstories::-webkit-scrollbar-thumb {
+.container-browsebycategory::-webkit-scrollbar-thumb {
 	background-color: #2A475E;
 	border-radius: 3px;
 }
 
-.card-popularshortstories {
-	width: 200px;
-	box-shadow: 3px 3px 3px #171a21;
+.card-browsebycategory {
+	position: relative;
+	min-width: 210px;
+	height: 210px;
 	color: white;
-	font-family: sans-serif;
+	font-size: small;
+	font-weight: bold;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	scroll-snap-align: start;
+	cursor: pointer;
+	/* Snap untuk setiap card */
 }
 
-.card-popularshortstories img {
-	width: 200px;
-	height: auto;
-	display: block;
+.card-browsebycategory:hover {
+	transform: scale(1.03);
 }
 
-.card-readnow {
-	padding: 10px;
-	background: linear-gradient(to bottom, #2a475e, rgb(45, 65, 89));
-	font-size: 13px;
-	color: #fff;
+/* Overlay colors for each category */
+.action {
+	background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url('https://iamyzddesign.github.io/thumbnail-1/ACTION\ \(THUMBNAIL\).jpg');
+	background-size: cover;
 }
 
-/* CARD POPULAR SHORT STORIES */
+.anime {
+	background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 0, 255, 0.5)), url('https://iamyzddesign.github.io/thumbnail-1/ANIME\ \(THUMBNAIL\).jpg');
+	background-size: cover;
+}
+
+.horror {
+	background: linear-gradient(rgba(255, 200, 0, 0.5), rgba(255, 200, 0, 0.5)), url('https://iamyzddesign.github.io/thumbnail-1/HORROR\ \(THUMBNAIL\).jpg');
+	background-size: cover;
+}
+
+.survival {
+	background: linear-gradient(rgba(0, 255, 0, 0.5), rgba(0, 255, 0, 0.5)), url('https://iamyzddesign.github.io/thumbnail-1/SURVIVAL\ \(THUMBNAIL\).jpg');
+	background-size: cover;
+}
+
+.card-browsebycategory h3 {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* BROWSE BY CATEGORY */
 
 /* GRID CARD */
 .grid-wrapper {
@@ -896,7 +925,7 @@ h5:hover {
 	box-shadow: 3px 3px 3px #171a21;
 	color: white;
 	font-family: sans-serif;
-	scroll-snap-align: center;
+	scroll-snap-align: start;
 }
 
 .card-topnewreleases img {
@@ -968,6 +997,25 @@ h5:hover {
 	color: yellow;
 	font-size: 11px;
 	margin-top: 5px;
+}
+
+.see-more {
+	display: flex;
+	justify-content: flex-end;
+	gap: 2px;
+	color: white;
+	cursor: pointer;
+	font-size: 12px;
+	margin: 0;
+}
+
+.word-1 {
+	padding: 4px 5px;
+}
+
+.word-2 {
+	border: 1px solid white;
+	padding: 4px 5px;
 }
 
 /* */
