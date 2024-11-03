@@ -465,6 +465,10 @@ h5:hover {
     float: right;
 }
 
+.browse-all p {
+    width: max-content;
+}
+
 .browse-all a:hover {
     color: #c7d5e0;
 }
