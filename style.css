@@ -757,10 +757,8 @@ h5:hover {
 	margin: 10px;
 	margin-top: 25px;
 	overflow-x: auto;
-	overflow-y: hidden;
 	scroll-snap-type: x mandatory;
 	padding-bottom: 15px;
-	/* Membuat snap untuk setiap card */
 }
 
 .container-browsebycategory::-webkit-scrollbar {
@@ -785,14 +783,12 @@ h5:hover {
 	justify-content: center;
 	scroll-snap-align: start;
 	cursor: pointer;
-	/* Snap untuk setiap card */
 }
 
 .card-browsebycategory:hover {
 	transform: scale(1.03);
 }
 
-/* Overlay colors for each category */
 .action {
 	background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0.5)), url('https://iamyzddesign.github.io/thumbnail-1/ACTION\ \(THUMBNAIL\).jpg');
 	background-size: cover;
@@ -870,7 +866,7 @@ h5:hover {
 
 /* BANNER */
 .banner-container {
-	padding-top: 20px;
+	padding-top: 80px;
 }
 
 .banner {
@@ -933,6 +929,13 @@ h5:hover {
 	width: 200px;
 	height: auto;
 	display: block;
+}
+
+.card-readnow {
+	padding: 10px;
+	background: linear-gradient(to bottom, #2a475e, rgb(45, 65, 89));
+	font-size: 13px;
+	color: #fff;
 }
 
 /* BANNER */
@@ -1003,11 +1006,12 @@ h5:hover {
 .see-more {
 	display: flex;
 	justify-content: flex-end;
+	float: right;
 	gap: 2px;
 	color: white;
 	cursor: pointer;
 	font-size: 12px;
-	margin: 0;
+	width: max-content;
 }
 
 .word-1 {
