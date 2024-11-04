@@ -789,9 +789,25 @@ h5:hover {
 }
 
 .free-to-read {
-    color: yellow;
-    font-size: 11px;
+    color: white;
+    font-size: 10px;
+    margin-top: 2px;
+    background: linear-gradient(to bottom, #627a05, #819c13);
+    padding: 2px 3px;
+    border-radius: 2px;
+    width: max-content;
+    overflow: hidden;
+    box-shadow: 0 1px 9px rgba(0, 0, 0, 0.5);
+}
+
+.card-tags {
+    font-size: 5px;
     margin-top: 5px;
+    color: #acacad;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 110px;
 }
 
 .card-title-allitems {
@@ -1399,6 +1415,11 @@ h5:hover {
 
     .free-to-read {
         font-size: 14px;
+    }
+
+    .card-tags {
+        font-size: 8px;
+        width: max-content;
     }
 
     .hiddenallitems {
@@ -2034,6 +2055,11 @@ h5:hover {
 
     .free-to-read {
         font-size: 14px;
+    }
+
+    .card-tags {
+        font-size: 8px;
+        width: max-content;
     }
 
     .hiddenallitems {

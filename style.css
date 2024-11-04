@@ -1048,7 +1048,7 @@ h5:hover {
 }
 
 .card-item img {
-	width: 90px;
+	width: 135px;
 	height: auto;
 	margin-right: 20px;
 }
@@ -1061,6 +1061,7 @@ h5:hover {
 .title-and-releasesdate {
 	display: flex;
 	flex-direction: column;
+	margin-left: -13px;
 }
 
 .card-title {
@@ -1071,13 +1072,29 @@ h5:hover {
 
 .releases-date {
 	color: #297aa9;
-	font-size: 9px;
+	font-size: 8px;
 }
 
 .free-to-read {
-	color: yellow;
-	font-size: 11px;
+	color: white;
+	font-size: 10px;
+	margin-top: 2px;
+	background: linear-gradient(to bottom, #627a05, #819c13);
+	padding: 2px 3px;
+	border-radius: 2px;
+	width: max-content;
+	overflow: hidden;
+	box-shadow: 0 1px 9px rgba(0, 0, 0, 0.5);
+}
+
+.card-tags {
+	font-size: 5px;
 	margin-top: 5px;
+	color: #acacad;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 110px;
 }
 
 .see-more {
@@ -2114,6 +2131,11 @@ h5:hover {
 		font-size: 14px;
 	}
 
+	.card-tags {
+		font-size: 8px;
+		width: max-content;
+	}
+
 	/* */
 }
 
@@ -2146,16 +2168,15 @@ h5:hover {
 }
 
 @media screen and (width: 360px) {
-	.card-item div {
-		display: flex;
-		align-items: flex-start;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		width: 250px;
+	.card-item img {
+		width: 125px;
 	}
 
 	.card-title {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 150px;
 		font-size: 0.7rem;
 	}
 }
@@ -2165,17 +2186,16 @@ h5:hover {
 		font-size: 0.6em;
 	}
 
-	.card-item div {
-		display: flex;
-		align-items: flex-start;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		width: 250px;
+	.card-item img {
+		width: 125px;
 	}
 
 	.card-title {
-		font-size: 0.8rem;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 150px;
+		font-size: 0.7rem;
 	}
 }
 
@@ -2218,17 +2238,16 @@ h5:hover {
 		font-size: 0.7rem;
 	}
 
-	.card-item div {
-		display: flex;
-		align-items: flex-start;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		width: 250px;
+	.card-item img {
+		width: 125px;
 	}
 
 	.card-title {
-		font-size: 0.8rem;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 150px;
+		font-size: 0.7rem;
 	}
 
 	button {
@@ -2273,16 +2292,11 @@ h5:hover {
 		font-size: 0.7rem;
 	}
 
-	.card-item div {
-		display: flex;
-		align-items: flex-start;
+	.card-title {
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
-		width: 300px;
-	}
-
-	.card-title {
+		width: 200px;
 		font-size: 0.8rem;
 	}
 
@@ -2727,6 +2741,11 @@ h5:hover {
 
 	.free-to-read {
 		font-size: 14px;
+	}
+
+	.card-tags {
+		font-size: 8px;
+		width: max-content;
 	}
 
 	/* */
@@ -3383,6 +3402,11 @@ h5:hover {
 
 	.free-to-read {
 		font-size: 14px;
+	}
+
+	.card-tags {
+		font-size: 8px;
+		width: max-content;
 	}
 
 	/* */
