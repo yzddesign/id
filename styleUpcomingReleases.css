@@ -558,9 +558,9 @@ h5:hover {
 }
 
 .card-item img {
-    width: 135px;
+    width: 125px;
     height: auto;
-    margin-left: -13px;
+    margin-right: 10px;
 }
 
 .card-item div {
