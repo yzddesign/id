@@ -768,9 +768,9 @@ h5:hover {
 }
 
 .card-item-allitems img {
-    width: 90px;
+    width: 135px;
     height: auto;
-    margin-right: 20px;
+    margin-left: -13px;
 }
 
 .card-item-allitems div {
@@ -801,7 +801,7 @@ h5:hover {
 }
 
 .card-tags {
-    font-size: 5px;
+    font-size: 7px;
     margin-top: 5px;
     color: #acacad;
     white-space: nowrap;
