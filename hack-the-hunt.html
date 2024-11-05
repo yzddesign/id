@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styleShortStories.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Hack The Hunt</title>
+</head>
+
+<body>
+    <section>
+        <nav class="mobile-menu">
+            <div class="container-logoweb">
+                <a href="home.html#coming-soon"><img src="YZD-Design-Logo-(NEW).png" alt="" class="logo-website"></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+            </div>
+            <div class="menu-content" id="menu-content">
+                <ul>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">New & Noteworthy</a>
+                        <ul class="submenu">
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Top Short
+                                    Stories</a></li>
+                            <li><a href="new-releases.html#new-releases" class="menu-link">New Releases</a></li>
+                            <li><a href="upcoming-releases.html#upcoming-releases" class="menu-link">Upcoming
+                                    Releases</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Store</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
+                            <li><a href="sale-designs-page1.html#sale-designs" class="menu-link">Sale Designs</a></li>
+                            <li><a href="news.html" class="menu-link">News</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Community</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Short Stories</a>
+                            </li>
+                            <li><a href="collaboration.html" class="menu-link">Collaboration</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="about.html" class="menu-link">About</a></li>
+                    <li class="has-submenu"><a href="support.html" class="menu-link">Support</a></li>
+                    <!-- Add more main menu items as needed -->
+
+                    <div class="footer">
+                        <img src="YZD-Design-Logo-(NEW).png" alt="" class="logo-footer">
+                        <p>Copyright &copy; 2024 YZD Design. All rights reserved. <a
+                                href="mailto:yzddesign1@gmail.com">Feedback</a> | <a
+                                href="mailto:yzddesign1@gmail.com">Contact</a></p>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="overlay"></div>
+    </section>
+
+    <div class="second-navbar">
+        <li class="dropdown">
+            <a href="#" class="nama-second-navbar">Your Store</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="home.html#coming-soon" class="menu-link">Home</a>
+                <a href="sale-designs-page1.html#sale-designs" class="menu-link">Sale Designs</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="nama-second-navbar">New & Noteworthy</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="short-story-categories.html#coming-soon" class="menu-link">Top Short Stories</a>
+                <a href="new-releases.html#new-releases" class="menu-link">New Releases</a>
+                <a href="upcoming-releases.html#upcoming-releases" class="menu-link">Upcoming Releases</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="nama-second-navbar">Categories</a>
+            <div id="myDropDown" class="dropdown-content">
+                <a href="category-action.html#new-releases" class="menu-link">Action</a>
+                <a href="category-anime.html#new-releases" class="menu-link">Anime</a>
+                <a href="category-horror.html#new-releases" class="menu-link">Horror</a>
+                <a href="category-survival.html#new-releases" class="menu-link">Survival</a>
+            </div>
+        </li>
+        <li><a href="news.html" class="nama-second-navbar-disable">News</a></li>
+        <div class="box-input">
+            <input type="text" id="searchInput" placeholder="search" onkeyup="checkEnter(event)">
+            <button onclick="search()" id="btn-search"><img src="LOGO SEARCH.png" alt="" class="logo-search"></button>
+            <ul id="suggestions"></ul>
+        </div>
+    </div>
+
+    <div class="shortstory-card" id="hack-the-hunt">
+        <div class="shortstory-image">
+            <img src="https://iamyzddesign.github.io/thumbnail-1/HACK THE HUNT (THUMBNAIL).jpg" alt="">
+        </div>
+        <div class="shortstory-info">
+            <h2 class="shortstory-title">Hack The Hunt</h2>
+            <div class="creator-info">
+                <p>Creator: <a href="#">YZD Design</a></p>
+                <p>Publisher: <a href="#">YZD Design</a></p>
+                <p>Released: <span>5 Nov, 2024</span></p>
+            </div>
+            <div class="shortstory-description">
+                <p>Hack the Hunt follows the story of a detective named Alex, who teams up with a brilliant programmer,
+                    Mia, to track down a serial killer leaving behind nearly untraceable digital footprints. Each victim
+                    is found with an encrypted message that only someone skilled in hacking and cryptography can
+                    decipher.</p>
+            </div>
+            <div class="tags">
+                <span class="tag">Action</span>
+                <span class="tag">Anime</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-screenshot">
+        <img src="https://iamyzddesign.github.io/screenshot-1/HACK THE HUNT (SCREENSHOT) 1.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/HACK THE HUNT (SCREENSHOT) 2.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/HACK THE HUNT (SCREENSHOT) 3.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/HACK THE HUNT (SCREENSHOT) 4.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/HACK THE HUNT (SCREENSHOT) 5.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/HACK THE HUNT (SCREENSHOT) 6.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/HACK THE HUNT (SCREENSHOT) 7.jpg" alt="">
+        <img src="https://iamyzddesign.github.io/screenshot-1/HACK THE HUNT (SCREENSHOT) 8.jpg" alt="">
+    </div>
+
+    <div class="container-shortstory">
+        <p class="paragraph-shortstory">Di tengah malam yang sunyi di sebuah kota metropolitan, seorang pria berpakaian
+            rapi duduk di depan layar komputer, matanya menatap tajam pada deretan kode di depannya. Detektif Alex telah
+            memimpin banyak kasus sebelumnya, namun kali ini ia dihadapkan dengan teka-teki digital yang berbeda dari
+            yang pernah ia lihat. Alex: "Ini bukan sekadar pembunuhan biasa. Ada pola, ada pesan tersembunyi yang ingin
+            disampaikan oleh pembunuh ini. Tapi aku butuh seseorang yang bisa membantuku membongkar kode ini..." Alex
+            menghubungi Mia, seorang programmer jenius yang dikenal luas di komunitas hacker bawah tanah. Mia, dengan
+            gaya santainya, menyetujui untuk membantu Alex, penasaran akan tantangan yang dihadapi. Mia: "Aku harap kau
+            siap untuk bermain di area abu-abu, Alex.</p>
+
+        <p class="paragraph-shortstory">Dunia ini berbeda dengan hukum jalanan yang biasa kau jalani." Di saat yang
+            sama, mereka bertemu dengan dua rekan mereka yang lainnya, Ethan dan Leon. Ethan adalah seorang petugas
+            forensik dengan kemampuan analisis yang sangat tajam, sementara Leon adalah seorang pakar dalam ilmu sosial
+            yang memahami psikologi pembunuh dengan baik. Ethan: "Sepertinya ini bukan sekadar perbuatan orang iseng.
+            Pembunuh ini tahu apa yang dia lakukan dan meninggalkan pesan tersembunyi bukan tanpa alasan." Leon:
+            "Motifnya menarik. Dia ingin kita bermain sesuai aturan yang dia buat sendiri."</p>
+
+        <p class="paragraph-shortstory">Keesokan harinya, tubuh korban berikutnya ditemukan. Seperti sebelumnya, di
+            sebelah tubuh korban ada pesan terenkripsi. Kali ini, pesan tersebut berbentuk teka-teki dengan pola angka
+            yang aneh. Mia: "Ini bukan sandi biasa. Dia menggunakan cipher kompleks yang hanya seseorang dengan
+            pengetahuan mendalam tentang algoritma tertentu yang bisa memecahkannya." Alex: "Apa maksudnya, Mia?" Mia:
+            "Ini seperti... tantangan bagi kita. Pembunuh ini menginginkan kita untuk mengejar petunjuk yang
+            dia tinggalkan. Seperti permainan yang dirancang khusus." Leon: "Atau bisa jadi, dia ingin kita mengenalnya
+            lebih dekat. Dia mungkin mengundang kita ke dalam pikirannya yang rumit."</p>
+
+        <p class="paragraph-shortstory">Ethan, yang sedang memeriksa petunjuk di TKP, menemukan sidik jari yang samar di
+            permukaan yang tidak terduga. Ini membuat Alex semakin yakin bahwa pembunuh ini sengaja meninggalkan
+            petunjuk-petunjuk kecil untuk mereka ikuti. Tim kembali ke markas dan mulai bekerja keras untuk memecahkan
+            kode yang ditemukan. Mia menghabiskan berjam-jam di depan layar komputer, membedah algoritma, mencoba setiap
+            kombinasi yang mungkin. Ethan: "Apakah sudah ada perkembangan, Mia?" Mia: "Belum. Pembunuh ini menggunakan
+            enkripsi yang terus berubah setiap kali aku mencoba mendekripsinya. Ini seperti... sandi dinamis." Leon:
+            "Mungkin dia ingin menguji batas kemampuan kita."</p>
+
+        <p class="paragraph-shortstory">Alex merasa semakin frustasi, tapi dia tahu dia harus sabar. Pembunuh ini
+            pintar, dan dia tidak bisa sembarangan. Tim semakin tenggelam dalam teka-teki rumit yang terus diberikan
+            oleh pembunuh. Pesan terbaru membawa mereka ke sebuah gedung tua yang terlantar. Di dalam gedung itu, mereka
+            menemukan jejak yang lebih spesifik: sebuah foto dari masa lalu korban-korban sebelumnya, menunjukkan bahwa
+            mereka semua memiliki keterkaitan yang tak terlihat. **Alex:** "Mereka semua saling terhubung? Bagaimana
+            kita bisa melewatkan ini?" Ethan: "Mungkin ini bukan hubungan yang jelas. Pembunuhnya tahu cara
+            menyembunyikan jejak, tapi ada pola di sini." Mia: "Tunggu… kalau semua ini terkait, ada kemungkinan besar
+            korban berikutnya sudah ditentukan." Leon: "Pertanyaannya sekarang adalah: siapa yang berikutnya? Dan
+            bagaimana kita bisa menghentikannya sebelum terlambat?"</p>
+
+        <p class="paragraph-shortstory">Korban baru ditemukan, dan kali ini pembunuhnya meninggalkan sebuah rekaman
+            suara sebagai petunjuk. Rekaman itu penuh dengan suara statis dan suara samar yang tampak sengaja dibuat
+            sulit untuk dipecahkan. Mia: "Dia bermain-main dengan kita. Suara ini berlapis-lapis, seperti teka-teki yang
+            harus dipecahkan secara digital dan manual." Alex: "Apa kau bisa memecahkannya, Mia?" Mia: "Aku akan
+            mencoba, tapi ini butuh waktu. Kita menghadapi orang yang sangat terampil dalam manipulasi data." Sementara
+            Mia bekerja memecahkan rekaman tersebut, Ethan dan Leon mencoba mencari tahu hubungan antara para korban.
+            Leon menemukan bahwa setiap korban pernah berhubungan dengan sebuah proyek rahasia di perusahaan teknologi
+            besar, sebuah proyek yang tampaknya mempengaruhi kehidupan banyak orang di masa lalu.</p>
+
+        <p class="paragraph-shortstory">Saat mereka mendekati pemahaman tentang pola dan motivasi pembunuh, pembunuh
+            mulai meninggalkan pesan yang lebih personal untuk mereka. Kali ini, pesan itu langsung ditujukan pada Alex.
+            Pesan Pembunuh (dalam kode): "Alex, aku tahu kau lebih pintar dari yang kau biarkan. Temukan aku jika kau
+            bisa." Alex merasa terprovokasi, dan tanpa sadar mulai terobsesi pada pembunuh tersebut, seperti
+            terjebak dalam permainannya sendiri. Leon: "Hati-hati, Alex. Dia menginginkan ini. Dia menginginkanmu untuk
+            bermain sesuai aturannya." Alex: "Aku tak punya pilihan. Jika kita ingin menghentikannya, aku harus
+            memahaminya lebih dalam."</p>
+
+        <p class="paragraph-shortstory">Mia akhirnya berhasil mendekripsi pesan dari rekaman suara. Petunjuk tersebut
+            membawa mereka ke sebuah laboratorium teknologi lama, tempat beberapa eksperimen rahasia dilakukan. Di sana,
+            mereka menemukan beberapa nama orang yang mungkin menjadi target berikutnya. Mia: "Ini bukan sekadar
+            pembunuhan acak. Dia mencoba membersihkan masa lalunya… atau menghapus bukti dari sesuatu yang lebih besar."
+            Ethan: "Ini lebih dari sekadar balas dendam. Ini konspirasi yang sengaja ditutupi oleh perusahaan tempat
+            dia bekerja dulu."</p>
+
+        <p class="paragraph-shortstory">Ketika mereka menelusuri labirin petunjuk, pembunuh mulai menargetkan mereka
+            secara personal. Mia menemukan pesan terenkripsi di laptopnya sendiri, menandakan bahwa pembunuh telah
+            mengawasi mereka sejak lama. Mia: "Dia tahu tentang kita. Ini bukan lagi tentang korban. Kita juga bisa
+            menjadi sasaran berikutnya." Alex: "Lakukan apa pun untuk melindungi data kita. Jika dia bisa masuk ke
+            sistem kita, dia bisa melacak setiap gerakan kita." Malam itu, mereka mendapatkan informasi bahwa target
+            berikutnya sedang berada di kota yang berjarak beberapa jam dari mereka. Alex dan Leon segera menuju lokasi
+            untuk mencoba menyelamatkan korban, namun mereka terlambat. Mereka hanya menemukan pesan yang mengejek
+            mereka. Pesan Pembunuh: "Lambat, Alex. Sudah kubilang, ini permainan yang tak bisa kau menangkan." Leon:
+            "Dia mempermainkan kita. Seolah-olah dia menikmati setiap kekalahan kita."</p>
+
+        <p class="paragraph-shortstory">Alex mulai menyadari bahwa pembunuh tersebut memiliki pengetahuan pribadi
+            tentang dirinya. Masa lalu Alex yang kelam perlahan terungkap; ternyata, dia pernah terlibat dalam
+            penyelidikan yang mengarah pada proyek rahasia yang sama di perusahaan tempat pembunuh bekerja dulu. Ethan:
+            "Ini mungkin ada hubungannya dengan masa lalumu, Alex. Pembunuh ini mungkin menyimpan dendam pribadi." Alex:
+            "Kalau begitu, kita semakin dekat. Dia tak bisa bersembunyi selamanya." Tim menyadari bahwa pembunuh tidak
+            hanya membidik mantan pekerja proyek, tetapi juga orang-orang yang tahu tentang kegagalan eksperimen
+            tersebut. Ketika mereka menyelidiki lebih jauh, mereka menemukan seorang korban potensial baru yang selamat
+            dari percobaan tersebut, tapi kini hidup dalam persembunyian. Alex: "Kita harus menemukannya sebelum
+            pembunuh melakukannya. Dia mungkin satu-satunya yang tahu lebih banyak tentang apa yang sebenarnya terjadi."
+            Ethan: "Aku akan menghubungi beberapa orang untuk melacaknya. Jika kita cepat, mungkin kita bisa
+            menyelamatkannya." Mereka memulai pengejaran, menyadari bahwa pembunuh semakin dekat.</p>
+
+        <p class="paragraph-shortstory">Saat tim hampir mencapai persembunyian korban berikutnya, mereka terlambat
+            beberapa menit. Di lokasi tersebut, mereka menemukan tanda-tanda perlawanan yang gagal. Pembunuh
+            meninggalkan pesan lagi, dengan simbol-simbol yang lebih kompleks dan penuh teka-teki. Mia: "Pesan ini
+            semakin sulit dipecahkan. Sepertinya dia menantang kita untuk mengerti motifnya, tapi masih menyembunyikan
+            petunjuk kunci." Leon: "Kita harus membaca pola pikirnya lebih dalam. Ini bukan hanya tentang balas dendam.
+            Dia punya tujuan akhir." Mia bekerja tanpa henti untuk memecahkan pesan, sementara Alex semakin merasa bahwa
+            mereka harus segera memahami pemikiran pembunuh.</p>
+
+        <p class="paragraph-shortstory">Tim mulai kelelahan, terutama Alex yang terobsesi menangkap pembunuh. Ethan
+            mencoba mengingatkan Alex untuk tidak melampaui batas, tetapi Alex semakin dalam terjerat oleh permainan
+            pembunuh. Ethan: "Alex, kau butuh istirahat. Kita semua tahu ini penting, tapi kau tidak bisa membiarkan
+            pembunuh itu merusak mentalmu." Alex: "Kau tak mengerti, Ethan. Dia membuat kita semua terlihat bodoh. Dia
+            tahu kelemahan kita, dan kita tidak punya banyak waktu." Ethan dan Leon sepakat untuk mengawasi Alex,
+            khawatir bahwa obsesinya bisa berbahaya bagi keseluruhan misi. Sementara Mia memecahkan pesan terbaru,
+            konflik internal mulai muncul. Leon merasa bahwa mereka harus mencoba metode lain, sementara Alex tetap
+            teguh pada teorinya sendiri. Ketegangan ini membuat koordinasi mereka terganggu. Leon: "Jika kita terus
+            seperti ini, kita hanya akan berakhir saling menyalahkan. Kita butuh pendekatan baru!" Mia: "Cukup! Kita
+            semua lelah, tapi kita harus fokus pada tujuan utama kita. Kalau tidak, kita hanya akan memberi pembunuh
+            keuntungan."</p>
+
+        <p class="paragraph-shortstory">Di tengah ketegangan itu, Mia berhasil menemukan koordinat tersembunyi di pesan
+            yang membawa mereka ke lokasi berikutnya. Ketika mereka tiba di lokasi yang disebutkan, ternyata itu adalah
+            jebakan. Mereka dihadapkan pada serangkaian kamera tersembunyi yang merekam mereka, seolah-olah pembunuh
+            mengamati setiap langkah mereka. Pembunuh (melalui speaker tersembunyi): "Kalian pikir kalian bisa
+            menghentikanku? Ini baru permulaan, Alex. Kau tak akan pernah menang melawan bayangan." Alex: "Tunjukkan
+            dirimu, pengecut! Kau tidak bisa terus bersembunyi di balik teka-teki!" Tawa pembunuh terdengar, membuat
+            mereka sadar bahwa situasi semakin genting. Namun, mereka tidak mundur. Mereka bertekad untuk melawan balik,
+            bahkan jika itu berarti mempertaruhkan nyawa mereka.</p>
+
+        <p class="paragraph-shortstory">Mereka akhirnya menemukan bahwa proyek rahasia yang dimaksud adalah penelitian
+            yang melibatkan manipulasi ingatan manusia. Semua korban adalah bagian dari eksperimen yang telah gagal, dan
+            pembunuh merasa bahwa mereka semua telah mencuri hidupnya. Leon: "Ini bukan hanya balas dendam. Ini upaya
+            untuk memulihkan identitas yang hilang." Alex: "Tapi dia tidak bisa terus membunuh orang. Harus ada cara
+            untuk menghentikannya." Mia akhirnya melacak alamat IP pembunuh yang sesungguhnya. Mereka melakukan serangan
+            balik digital, mencoba menguak identitas pembunuh. Namun, pembunuh sudah menyiapkan firewall berlapis yang
+            membuat Mia terjebak dalam jebakan digital. Mia: "Dia terlalu pintar. Jika aku tidak hati-hati, aku bisa
+            kehilangan akses ke semua dataku." Alex: "Kau bisa melakukannya, Mia. Kita harus mengalahkannya di bidangnya
+            sendiri."</p>
+
+        <p class="paragraph-shortstory">Mereka akhirnya berhasil menembus keamanan pembunuh dan menemukan lokasinya.
+            Namun, ketika mereka tiba, tempat itu sudah kosong. Yang tersisa hanyalah sebuah catatan dengan pesan
+            terakhir. Pesan Pembunuh: "Permainan belum berakhir. Tapi kau sudah lebih dekat daripada sebelumnya." Alex,
+            Mia, Ethan, dan Leon terlibat dalam pengejaran penuh adrenalin dengan pembunuh tersebut. Mereka hampir
+            berhasil menangkapnya, namun pembunuh ternyata memiliki pelarian yang telah direncanakan dengan sangat
+            matang. Di saat-saat terakhir, dia berusaha menghancurkan semua bukti yang tersisa tentang dirinya. Alex:
+            "Tidak ada tempat untukmu melarikan diri. Kau sudah terpojok!" Pembunuh: "Kau hanya menangkap bayanganku,
+            Alex. Bayangan dari dunia yang telah hancur."</p>
+
+        <p class="paragraph-shortstory">Pada akhirnya, pembunuh berhasil melarikan diri, tetapi mereka memiliki cukup
+            bukti untuk mengungkap kebenaran tentang proyek rahasia yang menyebabkan semua ini. Kebenaran terungkap ke
+            publik, mengungkap korupsi dan kebohongan di balik perusahaan besar yang selama ini tersembunyi. Leon: "Kita
+            mungkin tidak berhasil menangkapnya, tapi setidaknya kebenaran ini telah terungkap." Mia: "Ya, tapi dengan
+            harga yang mahal. Kita kehilangan banyak dalam perburuan ini." Alex: "Kadang kebenaran tidak selalu membawa
+            kedamaian. Tapi setidaknya, dunia tahu apa yang sebenarnya terjadi."</p>
+
+        <p class="paragraph-shortstory">Setelah pembunuh berhasil melarikan diri, tim merasa kecewa. Meskipun kebenaran
+            mengenai proyek rahasia itu terungkap, ketidakberhasilan mereka menangkap pembunuh menyisakan rasa pahit.
+            Alex merasa terguncang karena pembunuh masih bebas dan bisa menyerang kapan saja. Ethan: "Aku tahu ini tidak
+            mudah diterima, tapi kita sudah melakukan yang terbaik." Alex: "‘Yang terbaik’ tidak cukup. Dia masih bebas,
+            Ethan. Setiap orang yang terlibat dalam proyek itu masih dalam bahaya." Leon: "Mungkin ini saatnya kita
+            menyusun rencana baru. Kita tidak bisa hanya menunggunya bergerak lagi." Alex akhirnya menyetujui saran Leon
+            untuk mencoba pendekatan berbeda. Mereka mulai mengkaji kembali semua petunjuk yang tersisa, berharap ada
+            sesuatu yang terlewatkan.</p>
+
+        <p class="paragraph-shortstory">Suatu malam, Mia menemukan email anonim yang masuk ke laptopnya. Pesan itu
+            tampak dari pembunuh, yang kali ini mengisyaratkan hubungan lebih dalam antara dirinya dan Alex. Email
+            tersebut penuh kode dan simbol, serta sebuah foto lama yang menunjukkan Alex di lokasi proyek rahasia itu
+            bertahun-tahun lalu. Mia: "Alex, ini aneh. Mengapa dia memiliki foto ini? Apa kau pernah terlibat dalam
+            proyek itu lebih dari yang kau ceritakan?" Alex: "Aku… mungkin pernah menyelidikinya sebelum proyek itu
+            ditutup. Tapi ini tidak masuk akal. Mengapa dia menyimpannya selama ini?" Leon: "Mungkin dia ingin kita tahu
+            bahwa ini bukan sekadar permainan. Ini sangat pribadi." Dengan semakin terkuaknya masa lalu Alex, tim mulai
+            mempertanyakan apa motivasi sebenarnya dari pembunuh dan keterkaitannya dengan Alex.</p>
+
+        <p class="paragraph-shortstory">Saat mereka mencoba menelusuri masa lalu Alex dan proyek rahasia tersebut, Alex
+            akhirnya membuka diri tentang salah satu kasus lamanya yang terkait. Ternyata, pembunuh pernah menjadi
+            subjek dalam penyelidikan yang dilakukan Alex, namun kasus itu ditutup karena kurangnya bukti. Ethan: "Jadi
+            ini semua karena kau membiarkan dia lolos? Apa itu alasannya?" Alex: "Aku tak tahu pasti, tapi mungkin.
+            Kasus itu penuh tekanan dari pihak atasan, dan bukti-bukti dihilangkan secara misterius. Aku tidak bisa
+            menuntaskan penyelidikan." Mia: "Kalau begitu, dia ingin balas dendam, dan dia melihat kita sebagai bagian
+            dari sistem yang menghancurkannya." Kini, Alex merasa bertanggung jawab lebih besar untuk menangkap pembunuh
+            tersebut.</p>
+
+        <p class="paragraph-shortstory">Tim kemudian memutuskan untuk memancing pembunuh dengan menyiapkan jebakan
+            digital. Mia dan Ethan memasang jebakan di jaringan, berharap pembunuh akan menggigit umpan. Mereka
+            menggunakan informasi dari kasus lama Alex untuk menarik perhatian pembunuh. Mia: "Jika dia benar-benar
+            ingin melawan kita, dia akan tertarik untuk masuk ke dalam sistem ini." Ethan: "Ini berisiko, tapi kita tak
+            punya pilihan lain. Dia tahu terlalu banyak tentang kita, dan kita harus bertindak sebelum dia menyerang
+            lagi." Beberapa saat kemudian, jebakan mereka mulai memberikan hasil: ada aktivitas mencurigakan di jaringan
+            mereka. Mereka segera melacaknya, mengetahui bahwa pembunuh sedang mencoba mengakses data mereka.</p>
+
+        <p class="paragraph-shortstory">Dengan bantuan Mia, mereka berhasil melacak lokasi fisik dari aktivitas jaringan
+            tersebut ke sebuah gedung terbengkalai di pinggiran kota. Alex, Ethan, Leon, dan Mia segera menuju lokasi
+            dengan harapan mereka bisa menghentikan pembunuh sebelum ia melarikan diri lagi. Leon: "Inilah saatnya. Kita
+            harus bergerak cepat dan berhati-hati." Alex: "Tidak ada ruang untuk kesalahan. Kali ini, kita tidak akan
+            membiarkan dia lolos." Namun, ketika mereka tiba, mereka hanya menemukan ruangan kosong dengan pesan di
+            dinding, "Selamat datang di akhir permainan, Alex." Mereka menyadari bahwa pembunuh telah mengatur segalanya
+            untuk membawa Alex ke titik ini. Dalam pesan di dinding itu, terungkap bahwa pembunuh ingin Alex menghadapi
+            dosanya di masa lalu, sebagai penutup dari proyek yang ia coba lindungi. Semua orang di tim mulai merasa
+            bahwa mereka hanyalah bagian dari rencana besar. Mia: "Dia tahu kita akan datang ke sini. Dia benar-benar
+            bermain-main dengan kita." Ethan: "Tapi ada sesuatu yang lebih dalam dari sekadar balas dendam. Ini seolah…
+            rencana yang sudah disiapkan sejak lama." Alex mulai merasa bahwa pembunuh lebih cerdas dan memiliki
+            pemahaman mendalam tentang dirinya dan timnya.</p>
+
+        <p class="paragraph-shortstory">Mia menemukan sebuah server tersembunyi di lokasi tersebut. Ketika diakses,
+            server itu menampilkan pesan pribadi dari pembunuh kepada Alex, yang menjelaskan bahwa ia telah merencanakan
+            segalanya untuk mengungkap kebobrokan proyek tersebut dan menghancurkan sistem yang mendukungnya. Pembunuh
+            (di layar): "Aku tak pernah membencimu, Alex. Aku hanya ingin kau melihat apa yang telah kau lindungi selama
+            ini." Alex: "Kau pikir ini membuatmu benar? Membunuh orang-orang yang kau anggap bertanggung jawab?"
+            Pembunuh: "Mereka semua adalah bagian dari kebohongan besar ini. Dan aku hanyalah penyeimbang keadilan."
+            Mereka semua mulai memahami bahwa pembunuh merasa memiliki misi untuk memperbaiki sistem, meski dengan cara
+            kejam. Pertentangan ideologis antara Alex dan pembunuh semakin memanas. Alex merasa bahwa tidak ada
+            pembenaran untuk tindakan kejam ini, sementara pembunuh menganggap dirinya sebagai korban dan pahlawan yang
+            mengembalikan keadilan. Alex: "Kau bukan pahlawan. Kau hanya monster yang menyamar sebagai korban."
+            Pembunuh: "Mungkin, tapi aku bukan satu-satunya monster di sini. Sistem yang kau dukung jauh lebih busuk."
+            Ketegangan meningkat ketika Alex merasa bahwa mungkin ada kebenaran dalam kata-kata pembunuh, namun tetap
+            bertekad untuk menghentikannya.</p>
+
+        <p class="paragraph-shortstory">Ketika tim berusaha mengakhiri permainan ini, pembunuh menyiapkan jebakan
+            terakhir. Ia menciptakan situasi di mana Alex harus memilih antara menyelamatkan korban potensial lainnya
+            atau menangkap pembunuh. Alex dihadapkan pada pilihan sulit. Leon: "Alex, kita tak bisa melakukan keduanya.
+            Pilihannya ada di tanganmu." Alex: "Aku tak bisa terus membiarkan orang mati, tapi aku juga tak bisa
+            membiarkannya lepas." Akhirnya, Alex memilih untuk menyelamatkan korban, sementara pembunuh berhasil
+            melarikan diri lagi, meninggalkan jejak samar yang tak mudah diikuti.</p>
+
+        <p class="paragraph-shortstory">Pada akhirnya, meskipun pembunuh berhasil lolos, tim menyadari bahwa mereka
+            telah mengungkap sisi gelap dari sistem yang mereka lindungi selama ini. Alex mulai meragukan prinsip yang
+            selama ini ia pegang teguh. Mereka kembali ke markas, dan Alex merenungkan perjalanan panjang ini. Ethan:
+            "Kita mungkin tak menangkapnya, tapi setidaknya kita tahu kebenaran." Mia: "Kebenaran memang penting, tapi
+            terkadang kita hanya melihat apa yang kita inginkan." Alex: "Benar. Kadang yang kita kejar justru membawa
+            kita lebih jauh dari keadilan yang sebenarnya."</p>
+
+        <p class="paragraph-shortstory">Setelah beberapa minggu tanpa jejak baru, tim hampir kehilangan harapan. Namun,
+            Ethan tiba-tiba menerima informasi dari seorang informan rahasia yang mengaku memiliki informasi penting
+            tentang identitas pembunuh dan rencana besar yang akan segera dieksekusi. Ethan: "Ini mungkin kesempatan
+            terakhir kita. Informan ini mengaku tahu di mana pembunuh berada dan siapa saja yang terlibat di dalamnya."
+            Alex: "Kita tak punya pilihan lain. Kita harus bertindak cepat." Tim sepakat untuk bertemu dengan informan
+            tersebut di lokasi terpencil, berharap ini adalah langkah penentu untuk mengakhiri teror yang telah
+            berlangsung lama. Saat tiba di tempat pertemuan, tim langsung merasa ada yang janggal. Informan tampak
+            gelisah dan seakan-akan sedang diawasi. Informan tersebut mengungkapkan bahwa pembunuh tidak bekerja
+            sendirian. Ia memiliki beberapa komplotan yang memiliki peran berbeda, termasuk ahli teknik dan peretas
+            handal. Informan: "Pembunuh bukan satu-satunya ancaman. Ada beberapa orang lain yang bekerja dengannya,
+            masing-masing memiliki keterampilan khusus untuk melindungi identitasnya." Mia: "Itu artinya kita harus
+            mempersiapkan diri menghadapi beberapa target. Ini lebih besar dari yang kita kira." Namun, sebelum
+            informasi lebih lanjut diberikan, tim tiba-tiba disergap oleh komplotan pembunuh. Mereka melawan dengan
+            sengit dan berhasil melarikan diri, tetapi menyadari bahwa misi ini akan jauh lebih berbahaya daripada yang
+            mereka bayangkan.</p>
+
+        <p class="paragraph-shortstory">Dari informasi singkat yang berhasil mereka peroleh, tim menemukan lokasi
+            persembunyian utama pembunuh, sebuah gudang yang dijaga ketat. Tempat tersebut disamarkan sebagai bisnis
+            lama yang sudah tidak beroperasi, namun aktivitas digital di dalamnya menunjukkan bahwa itu adalah markas
+            utama mereka. Leon: "Ini pasti tempatnya. Hanya tinggal masalah waktu sebelum dia bergerak lagi." Alex:
+            "Kali ini kita akan mempersiapkan semuanya. Tidak akan ada lagi yang lolos." Mereka mulai menyusun rencana
+            detail untuk menyusup ke dalam markas dan melumpuhkan semua komplotan. Pada malam hari, tim menyusup ke
+            gudang, berusaha untuk tetap tidak terdeteksi. Mereka bergerak secara diam-diam, menghindari penjaga dan
+            kamera pengintai yang tersebar di sekitar bangunan. Mia mengendalikan sistem keamanan dari jarak jauh,
+            membuka jalan bagi Alex dan Leon untuk masuk ke bagian terdalam. Mia: "Jalur bersih untuk saat ini, tapi
+            hati-hati. Mereka mungkin punya pengaman tambahan." Alex: "Ayo, kita harus bergerak cepat sebelum mereka
+            menyadari kehadiran kita." Saat mereka semakin dekat ke markas utama pembunuh, ketegangan meningkat,
+            menyadari bahwa pertempuran terakhir hampir tiba.</p>
+
+        <p class="paragraph-shortstory">Begitu mereka mencapai ruang utama, tim menemukan pembunuh beserta beberapa
+            komplotannya. Tanpa banyak bicara, pertarungan sengit pun terjadi. Komplotan pembunuh bertarung dengan
+            keterampilan yang mematikan, tetapi Alex, Ethan, Leon, dan Mia sudah siap menghadapi mereka. Pembunuh:
+            "Kalian pikir kalian bisa mengakhiriku? Kalian semua hanyalah pion dalam permainan ini!" Alex: "Permainanmu
+            sudah berakhir. Ini untuk semua nyawa yang kau habisi." Pertarungan berlangsung brutal. Satu per satu
+            komplotan pembunuh berhasil dilumpuhkan, tetapi pembunuh utama berhasil melarikan diri ke bagian lain
+            gudang.</p>
+
+        <p class="paragraph-shortstory">Alex dan Leon mengejar pembunuh melalui lorong-lorong sempit gudang. Pembunuh
+            terus berlari, meninggalkan jebakan untuk memperlambat mereka. Alex hampir terkena salah satu jebakan,
+            tetapi Leon berhasil menyelamatkannya tepat waktu. Leon: "Ayo, Alex! Kita hampir sampai! Jangan biarkan dia
+            lolos lagi!" Alex: "Aku tidak akan membiarkan ini berakhir tanpa dia menerima balasannya." Mereka akhirnya
+            berhasil mengepung pembunuh di ujung lorong, tak ada jalan keluar lagi untuknya. Di hadapan mereka, pembunuh
+            tampak tak gentar, bahkan tampak menikmati situasi. Dia membuka rahasia terakhir tentang proyek masa lalu
+            dan bagaimana Alex terlibat, mencoba memprovokasi emosi Alex untuk membuatnya lengah. Pembunuh: "Kau tak
+            jauh berbeda denganku, Alex. Kau juga terlibat dalam kebusukan yang sama." Alex: "Aku mungkin pernah
+            melakukan kesalahan, tapi aku tidak membunuh orang tak berdosa untuk membalas dendam." Pembunuh: "Jika kau
+            menghabisiku, itu berarti kau menyetujui caraku. Tapi jika kau membiarkanku hidup, maka kau akan tetap
+            terikat pada sistem yang kau benci." Alex terdiam sejenak, namun akhirnya ia menguatkan hati, menegaskan
+            pilihannya untuk membawa pembunuh ke pengadilan, bukan untuk membunuhnya di tempat.</p>
+
+        <p class="paragraph-shortstory">Namun, saat Alex hendak memborgolnya, pembunuh mencoba serangan terakhir. Ia
+            menyerang Alex dengan pisau yang disembunyikan, tetapi Ethan yang tiba di belakang mereka berhasil menembak
+            pembunuh tepat waktu, melumpuhkannya sebelum ia melukai Alex. Ethan: "Kau tidak akan menyentuh Alex lagi."
+            Pembunuh terjatuh dengan luka yang fatal. Dalam napas terakhirnya, dia mengucapkan kata-kata yang
+            mengisyaratkan bahwa meskipun dia sudah mati, ideologinya akan tetap hidup. Pembunuh: "Kalian bisa
+            membunuhku, tapi akan selalu ada orang lain yang melawan sistem ini…" Pembunuh menghembuskan napas
+            terakhirnya, meninggalkan keheningan di gudang itu.</p>
+
+        <p class="paragraph-shortstory">Setelah pembunuh dan komplotannya tewas, kasus tersebut ditutup. Tim berhasil
+            menghentikan serangkaian pembunuhan yang menghantui kota, namun mereka tahu bahwa luka dari kasus ini akan
+            terus membekas. Leon: "Akhirnya selesai… tapi rasanya masih belum benar-benar berakhir." Mia: "Setidaknya
+            kita telah menutup satu bab kelam ini. Mungkin ada yang lain di luar sana, tapi kita akan siap." Alex merasa
+            lega sekaligus terluka oleh kenyataan bahwa kebenaran sering kali datang dengan harga yang mahal. Meski
+            begitu, ia bersyukur bisa mengakhiri misi ini bersama timnya. Mereka semua kembali ke markas, menyiapkan
+            laporan akhir dan merenungkan semua yang telah terjadi. Alex, Ethan, Leon, dan Mia berbicara tentang masa
+            depan mereka sebagai tim dan pelajaran yang mereka ambil dari kasus ini. Alex: "Kita mungkin berhasil kali
+            ini, tapi kita tahu ada banyak tantangan di luar sana. Dunia ini penuh dengan orang-orang yang merasa
+            teraniaya oleh sistem." Ethan: "Selama kita tetap bersatu, kita akan selalu siap menghadapi apa pun." Leon:
+            "Benar. Kita mungkin tak bisa mengubah dunia sepenuhnya, tapi kita bisa melindungi sebanyak mungkin orang."
+            Mia: "Kita akan terus berjuang, dan kita tidak akan berhenti sampai dunia ini menjadi tempat yang lebih
+            aman." Dengan semangat yang baru, mereka menyadari bahwa perjuangan mereka belum selesai. Meskipun pembunuh
+            telah dihentikan, masih ada banyak pekerjaan yang harus dilakukan untuk menjaga kedamaian dan keadilan.</p>
+
+        <h2 class="note">Disclaimer: This story is purely fictional. We apologize if there are any similarities in
+            names, places, times, or dates. Thank you!</h2>
+    </div>
+
+    <!-- Add here -->
+    <link rel="Shortcut Icon" type="image/png" href="YZD LOGO.png">
+
+    <script>
+        function search() {
+            var input, filter, elements, i, txtValue;
+            input = document.getElementById('searchInput');
+            filter = input.value.toUpperCase();
+            elements = document.querySelectorAll('*'); // Mengambil semua elemen dalam dokumen
+            matchFound = false;
+
+            elements.forEach(function (element) {
+                txtValue = element.textContent || element.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    var pageURL = window.location.href; // Mendapatkan URL halaman saat ini
+                    var baseURL = pageURL.substring(0, pageURL.lastIndexOf("/") + 1); // Mendapatkan baseURL
+
+                    // Jika ditemukan elemen yang cocok, langsung arahkan pengguna ke halaman yang sesuai
+                    if (element.tagName === 'A' && txtValue.toUpperCase() === filter) {
+                        var link = element.getAttribute("href");
+                        window.location.href = baseURL + link; // Redirect ke halaman yang sesuai
+                        matchFound = true;
+                    }
+                }
+            });
+
+            if (!matchFound) {
+                alert("Page not found!");
+            }
+        }
+
+        function clearSearchInput() {
+            var input = document.getElementById('searchInput');
+            if (input) {
+                input.value = '';
+            }
+        }
+
+        window.onload = clearSearchInput;
+
+        // Fungsi untuk mengecek jika tombol enter ditekan
+        function checkEnter(event) {
+            if (event.keyCode === 13) { // 13 adalah kode tombol enter
+                search(); // Panggil fungsi pencarian jika tombol enter ditekan
+            }
+        }
+    </script>
+
+    <script src="hamburger.js"></script>
+    <script src="search-engine-allpages.js"></script>
+</body>
+
+</html>

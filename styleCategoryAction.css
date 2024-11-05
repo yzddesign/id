@@ -557,6 +557,10 @@ h5:hover {
     background: linear-gradient(180deg, rgb(41, 40, 39), rgba(41, 40, 39, 0.335));
 }
 
+.background-card-12 {
+    background: linear-gradient(180deg, rgb(48, 26, 68), rgba(48, 26, 68, 0.335));
+}
+
 /* NEW RELEASES */
 
 /* CONTENT HIDE */
@@ -840,7 +844,8 @@ h5:hover {
 }
 
 .hiddenallitems,
-.hiddenallitems2 {
+.hiddenallitems2,
+.hiddenallitems3 {
     display: none;
 }
 
@@ -852,7 +857,8 @@ h5:hover {
 }
 
 #showMoreAllItems,
-#showMoreAllItems2 {
+#showMoreAllItems2,
+#showMoreAllItems3 {
     font-size: 12px;
     color: white;
     cursor: pointer;
@@ -1218,6 +1224,20 @@ h5:hover {
         cursor: default;
     }
 
+    .shortstory-card-12 {
+        background: linear-gradient(180deg, rgb(48, 26, 68), rgba(48, 26, 68, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/HACK\ THE\ HUNT\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
     .shortstory-tittle {
         color: white;
     }
@@ -1477,12 +1497,14 @@ h5:hover {
     }
 
     .hiddenallitems,
-    .hiddenallitems2 {
+    .hiddenallitems2,
+    .hiddenallitems3 {
         display: none;
     }
 
     #showMoreAllItems,
-    #showMoreAllItems2 {
+    #showMoreAllItems2,
+    #showMoreAllItems3 {
         font-size: 12px;
         color: white;
         cursor: pointer;
@@ -1895,6 +1917,20 @@ h5:hover {
         cursor: default;
     }
 
+    .shortstory-card-12 {
+        background: linear-gradient(180deg, rgb(48, 26, 68), rgba(48, 26, 68, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/HACK\ THE\ HUNT\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
     .shortstory-tittle {
         color: white;
     }
@@ -2160,12 +2196,14 @@ h5:hover {
     }
 
     .hiddenallitems,
-    .hiddenallitems2 {
+    .hiddenallitems2,
+    .hiddenallitems3 {
         display: none;
     }
 
     #showMoreAllItems,
-    #showMoreAllItems2 {
+    #showMoreAllItems2,
+    #showMoreAllItems3 {
         font-size: 12px;
         color: white;
         cursor: pointer;
