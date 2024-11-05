@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleYZDDesignSearch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<title>YZD Design Search</title>
+</head>
+<body>
+    <section class="background-0">
+        <nav class="mobile-menu">
+            <div class="container-logoweb">
+                <a href="home.html#coming-soon"><img src="YZD-Design-Logo-(NEW).png" alt="" class="logo-website"></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+                <span class="menu-icon"></span>
+            </div>
+            <div class="menu-content" id="menu-content">
+                <ul>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">New & Noteworthy</a>
+                        <ul class="submenu">
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Top Short Stories</a></li>
+                            <li><a href="new-releases.html#new-releases" class="menu-link">New Releases</a></li>
+                            <li><a href="upcoming-releases.html#upcoming-releases" class="menu-link">Upcoming Releases</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Store</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
+                            <li><a href="sale-designs-page1.html#sale-designs" class="menu-link">Sale Designs</a></li>
+                            <li><a href="news.html" class="menu-link">News</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="#" class="submenu-toggle">Community</a>
+                        <ul class="submenu">
+                            <li><a href="home.html#coming-soon" class="menu-link">Home</a></li>
+                            <li><a href="short-story-categories.html#coming-soon" class="menu-link">Short Stories</a></li>
+                            <li><a href="collaboration.html" class="menu-link">Collaboration</a></li>
+                            <!-- Add more menu items as needed -->
+                        </ul>
+                    </li>
+                    <li class="has-submenu"><a href="about.html" class="menu-link">About</a></li>
+                    <li class="has-submenu"><a href="support.html" class="menu-link">Support</a></li>
+                    <!-- Add more main menu items as needed -->
+
+                    <div class="footer">
+                        <img src="YZD-Design-Logo-(NEW).png" alt="" class="logo-footer">
+                        <p>Copyright &copy; 2024 YZD Design. All rights reserved. <a href="mailto:yzddesign1@gmail.com">Feedback</a> | <a href="mailto:yzddesign1@gmail.com">Contact</a></p>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        
+        <div id="overlay"></div>
+
+        <div class="second-navbar">
+            <li class="dropdown">
+                <a href="#" class="nama-second-navbar">Your Store</a>
+                <div id="myDropDown" class="dropdown-content">
+                    <a href="home.html#coming-soon" class="menu-link">Home</a>
+                    <a href="sale-designs-page1.html#sale-designs" class="menu-link">Sale Designs</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="nama-second-navbar">New & Noteworthy</a>
+                <div id="myDropDown" class="dropdown-content">
+                    <a href="short-story-categories.html#coming-soon" class="menu-link">Top Short Stories</a>
+                    <a href="new-releases.html#new-releases" class="menu-link">New Releases</a>
+                    <a href="upcoming-releases.html#upcoming-releases" class="menu-link">Upcoming Releases</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="nama-second-navbar">Categories</a>
+                <div id="myDropDown" class="dropdown-content">
+                    <a href="category-action.html#new-releases" class="menu-link">Action</a>
+                    <a href="category-anime.html#new-releases" class="menu-link">Anime</a>
+                    <a href="category-horror.html#new-releases" class="menu-link">Horror</a>
+                    <a href="category-survival.html#new-releases" class="menu-link">Survival</a>
+                </div>
+            </li>
+            <li><a href="news.html" class="nama-second-navbar-disable">News</a></li>
+            <div class="box-input">
+                <input type="text" id="searchInput" placeholder="search" onkeyup="checkEnter(event)">
+                <button onclick="search()" id="btn-search"><img src="LOGO SEARCH.png" alt="" class="logo-search"></button>
+                <ul id="suggestions"></ul>
+            </div>
+        </div>
+
+        <div class="nav-specials" id="specials">
+            <h3 class="nama-nav">SPECIALS</h3>
+        </div>
+        <p class="all-short-stories">All Short Stories</p>
+    </section>
+
+    <section class="background-1">
+        <div class="search-bar">
+            <input type="text" id="searchInput2" placeholder="enter search title">
+            <ul id="suggestions-yzddesignsearch" class="suggestions-list"></ul>
+        </div>
+    </section>
+
+    <div class="container">
+        <a href="jukoku.html#jukoku">
+            <div class="card-item visible">
+                <div>
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/JUKOKU (THUMBNAIL).jpg" alt="">
+                    <div class="title-and-releasesdate">
+                        <div class="card-title">Jukoku</div>
+                        <div class="releases-date">31 Oct, 2024</div>
+                        <div class="free-to-read">Free To Read</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="kodoku-living-in-the-cursed-city.html#kodoku-living-in-the-cursed-city">
+            <div class="card-item visible">
+                <div>
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/KODOKU - LIVING IN THE CURSED CITY (THUMBNAIL).jpg" alt="">
+                    <div class="title-and-releasesdate">
+                        <div class="card-title">Kodoku : Living In The Cursed City</div>
+                        <div class="releases-date">26 Oct, 2024</div>
+                        <div class="free-to-read">Free To Read</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="unknown-corporation-secret-mission-season2.html#unknown-corporation-secret-mission-season2">
+            <div class="card-item visible">
+                <div>
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/UNKNOWN CORPORATION - SECRET MISSION S2 (THUMBNAIL).jpg" alt="">
+                    <div class="title-and-releasesdate">
+                        <div class="card-title">Unknown Corporation : Secret Mission #S2</div>
+                        <div class="releases-date">21 Oct, 2024</div>
+                        <div class="free-to-read">Free To Read</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="pirate-king-of-another-world-the-forgotten-one.html#pirate-king-of-another-world-the-forgotten-one">
+            <div class="card-item visible">
+                <div>
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/PIRATE KING OF ANOTHER WORLD - THE FORGOTTEN ONE (THUMBNAIL).jpg" alt="">
+                    <div class="title-and-releasesdate">
+                        <div class="card-title">Pirate King Of Another World : The Forgotten One</div>
+                        <div class="releases-date">20 Oct, 2024</div>
+                        <div class="free-to-read">Free To Read</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="loser-no-more-awakening-in-another-world.html#loser-no-more-awakening-in-another-world">
+            <div class="card-item visible">
+                <div>
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/LOSER NO MORE - AWAKENING IN ANOTHER WORLD (THUMBNAIL).jpg" alt="">
+                    <div class="title-and-releasesdate">
+                        <div class="card-title">Loser No More : Awakening In Another World</div>
+                        <div class="releases-date">16 Jul, 2024</div>
+                        <div class="free-to-read">Free To Read</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="the-forest.html#the-forest-survival-isolation">
+            <div class="card-item visible">
+                <div>
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/THE FOREST - SURVIVAL ISOLATION (THUMBNAIL).jpg" alt="">
+                    <div class="title-and-releasesdate">
+                        <div class="card-title">The Forest : Survival Isolation</div>
+                        <div class="releases-date">2 Oct, 2024</div>
+                        <div class="free-to-read">Free To Read</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="signal.html#signal">
+            <div class="card-item visible">
+                <div>
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/SIGNAL (THUMBNAIL).jpg" alt="">
+                    <div class="title-and-releasesdate">
+                        <div class="card-title">Signal</div>
+                        <div class="releases-date">3 Oct, 2024</div>
+                        <div class="free-to-read">Free To Read</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="here.html#here">
+            <div class="card-item visible">
+                <div>
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/HERE (THUMBNAIL).jpg" alt="">
+                    <div class="title-and-releasesdate">
+                        <div class="card-title">Here</div>
+                        <div class="releases-date">12 Oct, 2024</div>
+                        <div class="free-to-read">Free To Read</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="darkbane-hunters-season1.html#darkbane-hunters-sasori-kurogane-season1">
+            <div class="card-item visible">
+                <div>
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/DARKBANE HUNTERS (THUMBNAIL).jpg" alt="">
+                    <div class="title-and-releasesdate">
+                        <div class="card-title">Darkbane Hunters : Sasori Kurogane #S1</div>
+                        <div class="releases-date">13 Jul, 2024</div>
+                        <div class="free-to-read">Free To Read</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        <a href="unknown-corporation-silent-pandemic-season1.html#unknown-corporation-silent-pandemic-season1">
+            <div class="card-item visible">
+                <div>
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/UNKNOWN (THUMBNAIL).jpg" alt="">
+                    <div class="title-and-releasesdate">
+                        <div class="card-title">Unknown Corporation : Silent Pandemic #S1</div>
+                        <div class="releases-date">7 Jul, 2024</div>
+                        <div class="free-to-read">Free To Read</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="still-alive-1.html#still-alive-1">
+            <div class="card-item visible">
+                <div>
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/STILL ALIVE 1 (THUMBNAIL).jpg" alt="">
+                    <div class="title-and-releasesdate">
+                        <div class="card-title">Still Alive 1</div>
+                        <div class="releases-date">10 Jun, 2024</div>
+                        <div class="free-to-read">Free To Read</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="still-alive-2.html#still-alive-2">
+            <div class="card-item visible">
+                <div>
+                    <img src="https://iamyzddesign.github.io/thumbnail-1/STILL ALIVE 2 (THUMBNAIL).jpg" alt="">
+                    <div class="title-and-releasesdate">
+                        <div class="card-title">Still Alive 2</div>
+                        <div class="releases-date">11 Jun, 2024</div>
+                        <div class="free-to-read">Free To Read</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+	<!-- Add here -->
+	<link
+		rel="Shortcut Icon"
+		type="image/png"
+		href="YZD LOGO.png"
+	>
+
+    <script>
+        function search() {
+          var input, filter, elements, i, txtValue;
+          input = document.getElementById('searchInput');
+          filter = input.value.toUpperCase();
+          elements = document.querySelectorAll('*'); // Mengambil semua elemen dalam dokumen
+          matchFound = false;
+      
+          elements.forEach(function(element) {
+            txtValue = element.textContent || element.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              var pageURL = window.location.href; // Mendapatkan URL halaman saat ini
+              var baseURL = pageURL.substring(0, pageURL.lastIndexOf("/") + 1); // Mendapatkan baseURL
+      
+              // Jika ditemukan elemen yang cocok, langsung arahkan pengguna ke halaman yang sesuai
+              if (element.tagName === 'A' && txtValue.toUpperCase() === filter) {
+                var link = element.getAttribute("href");
+                window.location.href = baseURL + link; // Redirect ke halaman yang sesuai
+                matchFound = true;
+              }
+            }
+          });
+
+            if (!matchFound) {
+                alert("Page not found!");
+            }
+        }
+
+        function clearSearchInput() {
+            var input = document.getElementById('searchInput');
+            if (input) {
+                input.value = '';
+            }
+        }
+
+        window.onload = clearSearchInput;
+      
+        // Fungsi untuk mengecek jika tombol enter ditekan
+        function checkEnter(event) {
+          if (event.keyCode === 13) { // 13 adalah kode tombol enter
+            search(); // Panggil fungsi pencarian jika tombol enter ditekan
+          }
+        }
+    </script>
+
+	<script src="hamburger.js"></script>
+    <script src="search-engine-yzddesignsearch.js"></script>
+    <script src="showmore.js"></script>
+    <script src="search-engine-allpages.js"></script>
+</body>
+</html>

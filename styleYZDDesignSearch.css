@@ -472,9 +472,9 @@ h5:hover {
 }
 
 .card-item img {
-    width: 90px;
+    width: 100px;
     height: auto;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .card-item div {
@@ -504,9 +504,15 @@ h5:hover {
 }
 
 .free-to-read {
-    color: yellow;
-    font-size: 11px;
-    margin-top: 5px;
+    color: white;
+    font-size: 10px;
+    margin-top: 2px;
+    background: linear-gradient(to bottom, #627a05, #819c13);
+    padding: 2px 3px;
+    border-radius: 2px;
+    width: max-content;
+    overflow: hidden;
+    box-shadow: 0 1px 9px rgba(0, 0, 0, 0.5);
 }
 
 /* */
@@ -599,7 +605,7 @@ h5:hover {
     .card-item img {
         width: 130px;
         height: auto;
-        margin-right: 20px;
+        margin-right: 10px;
     }
 
     .card-title {
@@ -614,31 +620,21 @@ h5:hover {
 @media screen and (max-width: 810px) {}
 
 @media screen and (width: 360px) {
-    .card-item div {
-        display: flex;
-        align-items: flex-start;
+    .card-title {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        width: 250px;
-    }
-
-    .card-title {
+        width: 150px;
         font-size: 0.7rem;
     }
 }
 
 @media screen and (width: 320px) {
-    .card-item div {
-        display: flex;
-        align-items: flex-start;
+    .card-title {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        width: 250px;
-    }
-
-    .card-title {
+        width: 150px;
         font-size: 0.8rem;
     }
 }
@@ -655,16 +651,11 @@ h5:hover {
 
     /* SEARCH ENGINE */
 
-    .card-item div {
-        display: flex;
-        align-items: flex-start;
+    .card-title {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        width: 250px;
-    }
-
-    .card-title {
+        width: 150px;
         font-size: 0.8rem;
     }
 }
@@ -679,16 +670,11 @@ h5:hover {
 
     /* SEARCH ENGINE */
 
-    .card-item div {
-        display: flex;
-        align-items: flex-start;
+    .card-title {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        width: 300px;
-    }
-
-    .card-title {
+        width: 200px;
         font-size: 0.8rem;
     }
 }
@@ -785,7 +771,7 @@ h5:hover {
     .card-item img {
         width: 130px;
         height: auto;
-        margin-right: 20px;
+        margin-right: 10px;
     }
 
     /* */
