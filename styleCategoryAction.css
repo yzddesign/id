@@ -641,6 +641,8 @@ h5:hover {
     box-shadow: 3px 3px 3px #171a21;
     min-width: 230px;
     position: relative;
+    overflow: hidden;
+    border-radius: 3px;
 }
 
 .storyrich-card,
@@ -899,7 +901,6 @@ h5:hover {
 }
 
 .comingsoon-card img {
-    border-radius: 3px;
     width: 100%;
     height: auto;
     display: block;
@@ -909,17 +910,11 @@ h5:hover {
     box-shadow: 3px 3px 3px #171a21;
     min-width: 230px;
     position: relative;
-}
-
-.storyrich-card img {
+    overflow: hidden;
     border-radius: 3px;
-    width: 230px;
-    height: auto;
-    display: block;
 }
 
 .read-now {
-    border-radius: 3px;
     background: black;
     color: white;
     padding: 13px;
@@ -1382,17 +1377,17 @@ h5:hover {
         box-shadow: 3px 3px 3px #171a21;
         min-width: 230px;
         position: relative;
+        overflow: hidden;
+        border-radius: 3px;
     }
 
     .storyrich-card img {
-        border-radius: 3px;
         width: 230px;
         height: auto;
         display: block;
     }
 
     .read-now {
-        border-radius: 3px;
         background: black;
         color: white;
         padding: 13px;
@@ -2099,17 +2094,17 @@ h5:hover {
         box-shadow: 3px 3px 3px #171a21;
         min-width: 230px;
         position: relative;
+        overflow: hidden;
+        border-radius: 3px;
     }
 
     .storyrich-card img {
-        border-radius: 3px;
         width: 230px;
         height: auto;
         display: block;
     }
 
     .read-now {
-        border-radius: 3px;
         background: black;
         color: white;
         padding: 13px;
