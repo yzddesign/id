@@ -633,8 +633,13 @@ h5:hover {
     border-radius: 3px;
 }
 
-.storyrich-card,
 .isekai-card img {
+    width: 230px;
+    height: auto;
+    display: block;
+}
+
+.storyrich-card img {
     width: 230px;
     height: auto;
     display: block;
