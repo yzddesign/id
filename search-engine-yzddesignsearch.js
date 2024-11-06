@@ -1,5 +1,6 @@
 const data2 = [
-    { name: "Jukoku", url: "jukoku.html#jukoku", },
+    { name: "Hac The Hunt", url: "hack-the-hunt.html#hack-the-hunt" },
+    { name: "Jukoku", url: "jukoku.html#jukoku" },
     { name: "Kodoku : Living In The Cursed City", url: "kodoku-living-in-the-cursed-city.html#kodoku-living-in-the-cursed-city" },
     { name: "Unknown Corporation : Secret Mission #S2", url: "unknown-corporation-secret-mission-season2.html#unknown-corporation-secret-mission-season2" },
     { name: "Pirate King Of Another World : The Forgotten One", url: "pirate-king-of-another-world-the-forgotten-one.html#pirate-king-of-another-world-the-forgotten-one" },
