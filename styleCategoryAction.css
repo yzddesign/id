@@ -785,7 +785,7 @@ h5:hover {
 .card-item-allitems img {
     width: 125px;
     height: auto;
-    margin-right: 10px;
+    margin-right: 7px;
 }
 
 .card-item-allitems div {
@@ -899,6 +899,7 @@ h5:hover {
 }
 
 .comingsoon-card img {
+    border-radius: 3px;
     width: 100%;
     height: auto;
     display: block;
@@ -911,12 +912,14 @@ h5:hover {
 }
 
 .storyrich-card img {
+    border-radius: 3px;
     width: 230px;
     height: auto;
     display: block;
 }
 
 .read-now {
+    border-radius: 3px;
     background: black;
     color: white;
     padding: 13px;
@@ -1334,14 +1337,6 @@ h5:hover {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .row-4 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .row-5 {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
     .storyrich-wrapper {
         display: flex;
         overflow-x: auto;
@@ -1384,19 +1379,20 @@ h5:hover {
     }
 
     .storyrich-card {
-        border-radius: 3px;
         box-shadow: 3px 3px 3px #171a21;
         min-width: 230px;
         position: relative;
     }
 
     .storyrich-card img {
+        border-radius: 3px;
         width: 230px;
         height: auto;
         display: block;
     }
 
     .read-now {
+        border-radius: 3px;
         background: black;
         color: white;
         padding: 13px;
@@ -1488,7 +1484,7 @@ h5:hover {
     .card-item-allitems img {
         width: 155px;
         height: auto;
-        margin-right: 20px;
+        margin-right: 7px;
     }
 
     .card-item-allitems div {
@@ -2058,14 +2054,6 @@ h5:hover {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .row-4 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .row-5 {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
     .storyrich-wrapper {
         display: flex;
         overflow-x: auto;
@@ -2108,19 +2096,20 @@ h5:hover {
     }
 
     .storyrich-card {
-        border-radius: 3px;
         box-shadow: 3px 3px 3px #171a21;
         min-width: 230px;
         position: relative;
     }
 
     .storyrich-card img {
+        border-radius: 3px;
         width: 230px;
         height: auto;
         display: block;
     }
 
     .read-now {
+        border-radius: 3px;
         background: black;
         color: white;
         padding: 13px;
@@ -2212,7 +2201,7 @@ h5:hover {
     .card-item-allitems img {
         width: 155px;
         height: auto;
-        margin-right: 20px;
+        margin-right: 7px;
     }
 
     .card-item-allitems div {
