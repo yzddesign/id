@@ -674,6 +674,14 @@ h5:hover {
     display: none;
 }
 
+.container-showmorebtndesktop {
+    display: none;
+}
+
+#showMoreBtnDesktop1 {
+    display: none;
+}
+
 .container-showmorebtn {
     display: flex;
     justify-content: center;
@@ -1409,8 +1417,37 @@ h5:hover {
         display: block;
     }
 
+    .hiddendesktop1,
+    .hiddendesktop2,
+    .hiddendesktop3,
+    .hiddendesktop4 {
+        display: none;
+    }
+
     .container-showmorebtn {
         display: none;
+    }
+
+    .container-showmorebtndesktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    #showMoreBtn1 {
+        display: none;
+    }
+
+    #showMoreBtnDesktop1 {
+        display: block;
+        font-size: 12px;
+        color: #292726;
+        cursor: pointer;
+        padding: 11px 10px;
+        border: none;
+        border-radius: 3px;
+        background: linear-gradient(to bottom, #a9a3b6, #a9a3b6aa);
     }
 
     /* POPULAR TITLES */
@@ -2126,8 +2163,37 @@ h5:hover {
         display: block;
     }
 
+    .hiddendesktop1,
+    .hiddendesktop2,
+    .hiddendesktop3,
+    .hiddendesktop4 {
+        display: none;
+    }
+
     .container-showmorebtn {
         display: none;
+    }
+
+    .container-showmorebtndesktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    #showMoreBtn1 {
+        display: none;
+    }
+
+    #showMoreBtnDesktop1 {
+        display: block;
+        font-size: 12px;
+        color: #292726;
+        cursor: pointer;
+        padding: 11px 10px;
+        border: none;
+        border-radius: 3px;
+        background: linear-gradient(to bottom, #a9a3b6, #a9a3b6aa);
     }
 
     /* POPULAR TITLES */
