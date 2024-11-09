@@ -538,7 +538,7 @@ h5:hover {
 }
 
 .background-card-7 {
-    background: linear-gradient(180deg, rgb(20, 7, 59), rgba(20, 7, 59, 0.335));
+    background: linear-gradient(180deg, rgb(225, 151, 13), rgba(225, 151, 13, 0.335));
 }
 
 .background-card-8 {
@@ -1166,12 +1166,12 @@ h5:hover {
     }
 
     .shortstory-card-7 {
-        background: linear-gradient(180deg, rgb(20, 7, 59), rgba(20, 7, 59, 0.335));
+        background: linear-gradient(180deg, rgb(225, 151, 13), rgba(225, 151, 13, 0.335));
         overflow: hidden;
         width: 100%;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         position: relative;
-        background-image: url('https://iamyzddesign.github.io/thumbnail-1/STILL\ ALIVE\ 2\ \(THUMBNAIL\).jpg');
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/BLACKOUT\ RUN\ \(THUMBNAIL\).jpg');
         /* Add image as background */
         background-size: cover;
         /* Ensures the image covers the entire card */
@@ -1906,12 +1906,12 @@ h5:hover {
     }
 
     .shortstory-card-7 {
-        background: linear-gradient(180deg, rgb(20, 7, 59), rgba(20, 7, 59, 0.335));
+        background: linear-gradient(180deg, rgb(225, 151, 13), rgba(225, 151, 13, 0.335));
         overflow: hidden;
         width: 100%;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         position: relative;
-        background-image: url('https://iamyzddesign.github.io/thumbnail-1/STILL\ ALIVE\ 2\ \(THUMBNAIL\).jpg');
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/BLACKOUT\ RUN\ \(THUMBNAIL\).jpg');
         /* Add image as background */
         background-size: cover;
         /* Ensures the image covers the entire card */

@@ -549,6 +549,10 @@ h5:hover {
     background: linear-gradient(180deg, rgb(48, 26, 68), rgba(48, 26, 68, 0.335));
 }
 
+.background-card-10 {
+    background: linear-gradient(180deg, rgb(225, 151, 13), rgba(225, 151, 13, 0.335));
+}
+
 /* NEW RELEASES */
 
 /* CONTENT HIDE */
@@ -1182,6 +1186,20 @@ h5:hover {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         position: relative;
         background-image: url('https://iamyzddesign.github.io/thumbnail-1/HACK\ THE\ HUNT\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
+    .shortstory-card-10 {
+        background: linear-gradient(180deg, rgb(225, 151, 13), rgba(225, 151, 13, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/BLACKOUT\ RUN\ \(THUMBNAIL\).jpg');
         /* Add image as background */
         background-size: cover;
         /* Ensures the image covers the entire card */
@@ -1848,6 +1866,20 @@ h5:hover {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         position: relative;
         background-image: url('https://iamyzddesign.github.io/thumbnail-1/HACK\ THE\ HUNT\ \(THUMBNAIL\).jpg');
+        /* Add image as background */
+        background-size: cover;
+        /* Ensures the image covers the entire card */
+        background-position: center;
+        cursor: default;
+    }
+
+    .shortstory-card-10 {
+        background: linear-gradient(180deg, rgb(225, 151, 13), rgba(225, 151, 13, 0.335));
+        overflow: hidden;
+        width: 100%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        position: relative;
+        background-image: url('https://iamyzddesign.github.io/thumbnail-1/BLACKOUT\ RUN\ \(THUMBNAIL\).jpg');
         /* Add image as background */
         background-size: cover;
         /* Ensures the image covers the entire card */

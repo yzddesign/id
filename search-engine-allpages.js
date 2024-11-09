@@ -1,4 +1,5 @@
 const data = [
+    { name: "Blackout Run", url: "blackout-run.html#blackout-run", image: "https://iamyzddesign.github.io/thumbnail-1/BLACKOUT RUN (THUMBNAIL).jpg", price: "Free To Read" },
     { name: "Hack The Hunt", url: "hack-the-hunt.html#hack-the-hunt", image: "https://iamyzddesign.github.io/thumbnail-1/HACK THE HUNT (THUMBNAIL).jpg", price: "Free To Read" },
     { name: "Jukoku", url: "jukoku.html#jukoku", image: "https://iamyzddesign.github.io/thumbnail-1/JUKOKU (THUMBNAIL).jpg", price: "Free To Read" },
     { name: "Kodoku : Living In The Cursed City", url: "kodoku-living-in-the-cursed-city.html#kodoku-living-in-the-cursed-city", image: "https://iamyzddesign.github.io/thumbnail-1/KODOKU - LIVING IN THE CURSED CITY (THUMBNAIL).jpg", price: "Free To Read" },
