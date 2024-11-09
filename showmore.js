@@ -175,7 +175,7 @@ function showMoreDesktop4() {
 function showMoreAllItems() {
     var hiddenCards = document.querySelectorAll('.hiddenallitems'); // Semua kartu yang masih tersembunyi
     var btnText = document.getElementById("showMoreAllItems");
-    var cardsToShow = 5; // Jumlah kartu yang akan ditampilkan setiap kali klik
+    var cardsToShow = 10; // Jumlah kartu yang akan ditampilkan setiap kali klik
 
     // Tampilkan maksimal 5 kartu tersembunyi
     hiddenCards.forEach((card, index) => {
@@ -196,7 +196,7 @@ function showMoreAllItems() {
 function showMoreAllItems2() {
     var hiddenCards = document.querySelectorAll('.hiddenallitems2'); // Semua kartu yang masih tersembunyi
     var btnText = document.getElementById("showMoreAllItems2");
-    var cardsToShow = 5; // Jumlah kartu yang akan ditampilkan setiap kali klik
+    var cardsToShow = 10; // Jumlah kartu yang akan ditampilkan setiap kali klik
 
     // Tampilkan maksimal 5 kartu tersembunyi
     hiddenCards.forEach((card, index) => {
@@ -217,7 +217,7 @@ function showMoreAllItems2() {
 function showMoreAllItems3() {
     var hiddenCards = document.querySelectorAll('.hiddenallitems3'); // Semua kartu yang masih tersembunyi
     var btnText = document.getElementById("showMoreAllItems3");
-    var cardsToShow = 5; // Jumlah kartu yang akan ditampilkan setiap kali klik
+    var cardsToShow = 10; // Jumlah kartu yang akan ditampilkan setiap kali klik
 
     // Tampilkan maksimal 5 kartu tersembunyi
     hiddenCards.forEach((card, index) => {
