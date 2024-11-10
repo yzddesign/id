@@ -12,6 +12,7 @@ const data2 = [
     { name: "Darkbane Hunters : Sasori Kurogane #S1", url: "darkbane-hunters-season1.html#darkbane-hunters-sasori-kurogane-season1" },
     { name: "Unknown Corporation : Silent Pandemic #S1", url: "unknown-corporation-silent-pandemic-season1.html#unknown-corporation-silent-pandemic-season1" },
     { name: "Still Alive 1", url: "still-alive-1.html#still-alive-1" },
+    { name: "Still Alive 3", url: "still-alive-3.html#still-alive-3" },
     { name: "Still Alive 2", url: "still-alive-2.html#still-alive-2" }
 ];
 

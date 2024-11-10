@@ -12,6 +12,7 @@ const data = [
     { name: "Darkbane Hunters : Sasori Kurogane #S1", url: "darkbane-hunters-season1.html#darkbane-hunters-sasori-kurogane-season1", image: "https://iamyzddesign.github.io/thumbnail-1/DARKBANE HUNTERS (THUMBNAIL).jpg", price: "Free To Read" },
     { name: "Unknown Corporation : Silent Pandemic #S1", url: "unknown-corporation-silent-pandemic-season1.html#unknown-corporation-silent-pandemic-season1", image: "https://iamyzddesign.github.io/thumbnail-1/UNKNOWN (THUMBNAIL).jpg", price: "Free To Read" },
     { name: "Still Alive 1", url: "still-alive-1.html#still-alive-1", image: "https://iamyzddesign.github.io/thumbnail-1/STILL ALIVE 1 (THUMBNAIL).jpg", price: "Free To Read" },
+    { name: "Still Alive 3", url: "still-alive-3.html#still-alive-3", image: "https://iamyzddesign.github.io/thumbnail-1/STILL ALIVE 3 (THUMBNAIL).jpg", price: "Free To Read" },
     { name: "Still Alive 2", url: "still-alive-2.html#still-alive-2", image: "https://iamyzddesign.github.io/thumbnail-1/STILL ALIVE 2 (THUMBNAIL).jpg", price: "Free To Read" },
     // Tambahkan data lainnya sesuai kebutuhan
 ];
